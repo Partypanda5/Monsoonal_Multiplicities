@@ -1,5 +1,6 @@
 var MMTitle = document.getElementById('multipleMonsoons');
 var UATitle = document.getElementById('UA');
+var UrbanAssemblagesNav = document.querySelector('#UrbanAssemblages');
 
 var contentSection = document.getElementById('primaryPanel');
 var contentSectionTitle = document.getElementById('cityHeadings');
@@ -84,6 +85,29 @@ function toggleAccordion()
 section.on('click', toggleAccordion);
 section.on('click', checkActiveAccordian);
 section.on('click', checkInactiveAccordian);
+
+UrbanAssemblagesNav.addEventListener('click', () => 
+{
+  $("#navbarTitlesContainer").animate({
+    left: '-=30%',
+    opacity: '0'
+  }, 1000);
+
+  $("#RightTextContainer").animate({
+    left: '-=30%',
+    opacity: '0'
+  }, 1000);
+
+  $(".headingItem").animate({
+    opacity: '1'
+  }, 2000);
+
+  $(".headingTitle").animate({
+    opacity: '1'
+  }, 2000);
+
+
+});
 
 MMTitle.addEventListener('click', () => 
 {
@@ -240,6 +264,12 @@ function checkInactiveAccordian()
   {
     subtitleContainerFour.style.display = 'inline';
     focusedSubtitlesFour.style.display = 'none';
+   // alert('section four deactivated');
+  }
+  if (!$(sectionFive).hasClass("active"))
+  {
+    subtitleContainerFive.style.display = 'inline';
+    focusedSubtitlesFive.style.display = 'none';
    // alert('section four deactivated');
   }
 }

@@ -50,7 +50,7 @@ body
     right: -3px;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
-    display: none;
+    opacity: 0;
 }
 .headingItem
 {
@@ -62,7 +62,7 @@ body
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    display: none;
+    opacity: 0;
 }
 #project
 {
