@@ -100,21 +100,38 @@ body
 }
 .cityTitle
 {
-    margin: 10px;
     transform: rotate(90deg);
     white-space: nowrap;
     position: absolute;
-    top: 12.2vh;
-    left: -15px;
+    top: 13.5vh;
+    left: -5px;
     font-size: 18px;
+    padding: 0px;
     font-family: 'Roboto', sans-serif;
     z-index: 5;
+    margin: 0;
 }
+
+.UrbanAssemblagesChapterName
+{
+    transform: rotate(90deg);
+    white-space: nowrap;
+    position: absolute;
+    top: 11.5vh;
+    left: 15px;
+    font-size: 18px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    z-index: 5;
+    margin: 0;
+}
+
+
 #cityHeadings
 {
     position: relative;
     top: 19vh;
-    left: 3.5vw;
+    left: 4vw;
     font-family: 'Sora', sans-serif;
 }
 #cityNameContainer
@@ -794,7 +811,10 @@ a
       top: 7.5vh;
       right: 30px;
   }
-
+  #UrbanAssemblages:hover
+  {
+      cursor: pointer;
+  }
   .subtitleContainer
   {
       display: inline;
@@ -984,7 +1004,7 @@ span {
 {
     width: 30%;
     position: absolute;
-    top: 24%;
+    top: 24.5%;
     left: 35.5%;
 }
 
@@ -993,4 +1013,5 @@ span {
     font-size: 32px;
     font-weight: 400;
     line-height: 37px;
+    font-family: 'Roboto', sans-serif;
 }

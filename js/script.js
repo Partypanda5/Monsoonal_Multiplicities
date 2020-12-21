@@ -1,10 +1,13 @@
 var MMTitle = document.getElementById('multipleMonsoons');
 var UATitle = document.getElementById('UA');
 var UrbanAssemblagesNav = document.querySelector('#UrbanAssemblages');
+var cityTitle = document.querySelector('.cityTitle');
+
+var disableRightHandPanel = false;
 
 var contentSection = document.getElementById('primaryPanel');
 var contentSectionTitle = document.getElementById('cityHeadings');
-var primaryPanelContainer = document.getElementById('mainSection');
+var primaryPanelContainer = document.querySelector('.Layout__wrapper-container');
 var primaryTitle = document.querySelector('.cityName');
 var contentText = document.querySelector('.contentText');
 
@@ -82,32 +85,74 @@ function toggleAccordion()
   $(this).addClass('active');
 }
 
+  UrbanAssemblagesNav.addEventListener('click', (event) => 
+{
+    if (AccordianFive.offsetWidth >= 385)
+    {
+      event.stopPropagation();
+        $("#navbarTitlesContainer").animate({
+          left: '-=30%',
+          opacity: '0'
+        }, 1000);
+
+        $("#RightTextContainer").animate({
+          left: '-=30%',
+          opacity: '0'
+        }, 1000);
+
+        $(".cityTitle").animate({
+          left: '-=30%',
+          opacity: '0'
+        }, 1000);
+
+        $(".Layout__wrapper-container").animate({
+          opacity: '0'
+        }, 1000);
+
+        $(".headingItem").animate({
+          opacity: '1'
+        }, 2000);
+
+        $(".headingTitle").animate({
+          opacity: '1'
+        }, 2000);
+
+        subtitleContainerFive.style.display = 'none';
+        focusedSubtitlesFive.style.display = 'none';
+        UrbanAssemblagesNav.style.opacity = 0;
+
+        $(".Layout__wrapper-container").animate({
+          opacity: '1'
+        }, 3000);
+
+        var switchToUA = setTimeout(UATimer, 3000);
+
+        function UATimer()
+        {
+          primaryPanelContainer.innerHTML = `
+          <a id="ChapterName" href="#"><h2 class="UrbanAssemblagesChapterName">Urban Assemblages</h2></a>
+          
+          <div id="cityHeadings">
+          <div id='cityNameContainer'><a id='chennaiTitle' href='#'><h1 id='cityChennai' class='cityTitlePrimary'>CHENNAI</h1></a><a id='dhakaTitle' href='#'><h1 id='cityDhaka' class='cityTitlePrimary'>DHAKA</h1></a><a id='YangonTitle' href='#'><h1 id='cityYangon' class='cityTitlePrimary'>YANGON</h1></a><a id='LondonTitle' href='#'><h1 id='cityLondon' class='cityTitlePrimary'>LONDON</h1></a></div>
+        </div>`;
+        }
+
+        AccordianFive.style.pointerEvents = "none";
+      }
+
+      $("#sectionThree").addClass('active');
+      $('#sectionFive').remove('active');
+      checkActiveAccordian();
+      checkInactiveAccordian();
+
+      subtitleContainerFive.style.display = 'none';
+      focusedSubtitlesFive.style.display = 'none';
+      disableRightHandPanel = true;
+});
+
 section.on('click', toggleAccordion);
 section.on('click', checkActiveAccordian);
 section.on('click', checkInactiveAccordian);
-
-UrbanAssemblagesNav.addEventListener('click', () => 
-{
-  $("#navbarTitlesContainer").animate({
-    left: '-=30%',
-    opacity: '0'
-  }, 1000);
-
-  $("#RightTextContainer").animate({
-    left: '-=30%',
-    opacity: '0'
-  }, 1000);
-
-  $(".headingItem").animate({
-    opacity: '1'
-  }, 2000);
-
-  $(".headingTitle").animate({
-    opacity: '1'
-  }, 2000);
-
-
-});
 
 MMTitle.addEventListener('click', () => 
 {
@@ -115,73 +160,71 @@ MMTitle.addEventListener('click', () =>
 
   cityHeadings.innerHTML = "<a href='#'><h1 class='cityName'>MONSOONAL <br/>MULTIPLICITIES</h1></a>";
 
-  //imageContent.style.display = 'none';
   videoContent.style.display = 'block';
   videoContent.style.opacity = 0;
   contentSection.style.position = 'relative';
   contentSection.style.top = '24.5vh';
 });
 
-UATitle.addEventListener('click', () => 
-{
-  primaryPanelContainer.innerHTML = `<div id="cityHeadings">
-  <div id='cityNameContainer'><a id='chennaiTitle' href='#'><h1 id='cityChennai' class='cityTitlePrimary'>CHENNAI</h1></a><a id='dhakaTitle' href='#'><h1 id='cityDhaka' class='cityTitlePrimary'>DHAKA</h1></a><a id='YangonTitle' href='#'><h1 id='cityYangon' class='cityTitlePrimary'>YANGON</h1></a><a id='LondonTitle' href='#'><h1 id='cityLondon' class='cityTitlePrimary'>LONDON</h1></a></div>
-  </div><div id="primaryPanel" class="content"></div>`;
+// UATitle.addEventListener('click', () => 
+// {
+//   primaryPanelContainer.innerHTML = `<div id="cityHeadings">
+//   <div id='cityNameContainer'><a id='chennaiTitle' href='#'><h1 id='cityChennai' class='cityTitlePrimary'>CHENNAI</h1></a><a id='dhakaTitle' href='#'><h1 id='cityDhaka' class='cityTitlePrimary'>DHAKA</h1></a><a id='YangonTitle' href='#'><h1 id='cityYangon' class='cityTitlePrimary'>YANGON</h1></a><a id='LondonTitle' href='#'><h1 id='cityLondon' class='cityTitlePrimary'>LONDON</h1></a></div>
+// </div>`;
 
-  //imageContent.style.opacity = '0';
-  videoContent.style.display = 'none';
-  videoContent.style.opacity = 0;
-  contentSection.style.position = 'relative';
-  contentSection.style.top = '23.5vh';
+//   videoContent.style.display = 'none';
+//   videoContent.style.opacity = 0;
+//   contentSection.style.position = 'relative';
+//   contentSection.style.top = '23.5vh';
   
-var chennaiTitle = document.getElementById('chennaiTitle');
-var cityChennai = document.getElementById('cityChennai');
-var DhakaTitle = document.getElementById('dhakaTitle');
-var cityDhaka = document.getElementById('cityDhaka');
-var YangonTitle = document.getElementById('YangonTitle');
-var cityYangon = document.getElementById('cityYangon');
-var LondonTitle = document.getElementById('LondonTitle');
-var cityLondon = document.getElementById('cityLondon');
+// var chennaiTitle = document.getElementById('chennaiTitle');
+// var cityChennai = document.getElementById('cityChennai');
+// var DhakaTitle = document.getElementById('dhakaTitle');
+// var cityDhaka = document.getElementById('cityDhaka');
+// var YangonTitle = document.getElementById('YangonTitle');
+// var cityYangon = document.getElementById('cityYangon');
+// var LondonTitle = document.getElementById('LondonTitle');
+// var cityLondon = document.getElementById('cityLondon');
 
-chennaiTitle.addEventListener('click', () => 
-{
-  cityChennai.style.fontWeight = '900';
+// chennaiTitle.addEventListener('click', () => 
+// {
+//   cityChennai.style.fontWeight = '900';
 
-  $("#cityDhaka").delay(100).animate({"opacity": "0"}, 500);
-  $("#cityYangon").delay(100).animate({"opacity": "0"}, 500);
-  $("#cityLondon").delay(100).animate({"opacity": "0"}, 500);
+//   $("#cityDhaka").delay(100).animate({"opacity": "0"}, 500);
+//   $("#cityYangon").delay(100).animate({"opacity": "0"}, 500);
+//   $("#cityLondon").delay(100).animate({"opacity": "0"}, 500);
   
-});
+// });
 
-DhakaTitle.addEventListener('click', () => 
-{
-  cityDhaka.style.fontWeight = '900';
-  dhakaScroll = true;
-  var scrollCounter = 0;
+// DhakaTitle.addEventListener('click', () => 
+// {
+//   cityDhaka.style.fontWeight = '900';
+//   dhakaScroll = true;
+//   var scrollCounter = 0;
 
-  var changeDhakaPosition = setTimeout(dhakaTimer, 1000);
+//   var changeDhakaPosition = setTimeout(dhakaTimer, 1000);
 
-  function dhakaTimer ()
-  {
-    cityDhaka.style.position = "absolute";
-    cityDhaka.style.top = '9.5vh';
-    var contentSection = document.getElementById('primaryPanel');
-    contentSection.innerHTML = `<p class='contentText'>“Dhaka was a floating city. That's why Dhaka was chosen to be the capital, in those days water was the protection” (River activist, interview with Beth Cullen, 19th October 2019, Dhaka)</p>`;
-    contentSection.style.position = 'absolute';
-    contentSection.style.top = '26vh';
-    contentSection.style.opacity = '0';
-    videoContent.style.display = 'block';
+//   function dhakaTimer ()
+//   {
+//     cityDhaka.style.position = "absolute";
+//     cityDhaka.style.top = '9.5vh';
+//     var contentSection = document.getElementById('primaryPanel');
+//     contentSection.innerHTML = `<p class='contentText'>“Dhaka was a floating city. That's why Dhaka was chosen to be the capital, in those days water was the protection” (River activist, interview with Beth Cullen, 19th October 2019, Dhaka)</p>`;
+//     contentSection.style.position = 'absolute';
+//     contentSection.style.top = '26vh';
+//     contentSection.style.opacity = '0';
+//     videoContent.style.display = 'block';
 
-    $("#primaryPanel").delay(250).animate({"opacity": "1"}, 500);
-    $("#videoContent").delay(250).animate({"opacity": "1"}, 500);
-  }
+//     $("#primaryPanel").delay(250).animate({"opacity": "1"}, 500);
+//     $("#videoContent").delay(250).animate({"opacity": "1"}, 500);
+//   }
 
-  $("#cityChennai").delay(250).animate({"opacity": "0"}, 500);
-  $("#cityYangon").delay(250).animate({"opacity": "0"}, 500);
-  $("#cityLondon").delay(250).animate({"opacity": "0"}, 500);
-});
+//   $("#cityChennai").delay(250).animate({"opacity": "0"}, 500);
+//   $("#cityYangon").delay(250).animate({"opacity": "0"}, 500);
+//   $("#cityLondon").delay(250).animate({"opacity": "0"}, 500);
+// });
 
-});
+// });
 
 // var zoom = new dmuka.Zoom({
 //   element: document.querySelector("#hydrologicalImage"),
@@ -246,31 +289,36 @@ function checkInactiveAccordian()
   {
     subtitleContainerOne.style.display = 'inline';
     focusedSubtitlesOne.style.display = 'none';
-    //alert('section one deactivated');
+
   }
   if (!$(sectionTwo).hasClass("active"))
-  {
+  { 
     subtitleContainerTwo.style.display = 'inline';
     focusedSubtitlesTwo.style.display = 'none';
-    //alert('section two deactivated');
+
   }
   if (!$(sectionThree).hasClass("active"))
   {
     subtitleContainerThree.style.display = 'inline';
     focusedSubtitlesThree.style.display = 'none';
-    //alert('section three deactivated');
+
   }
   if (!$(sectionFour).hasClass("active"))
   {
     subtitleContainerFour.style.display = 'inline';
     focusedSubtitlesFour.style.display = 'none';
-   // alert('section four deactivated');
+
   }
   if (!$(sectionFive).hasClass("active"))
   {
     subtitleContainerFive.style.display = 'inline';
     focusedSubtitlesFive.style.display = 'none';
-   // alert('section four deactivated');
+  }
+
+  if (!$(sectionFive).hasClass("active") && disableRightHandPanel === true)
+  {
+    subtitleContainerFive.style.display = 'none';
+    focusedSubtitlesFive.style.display = 'none';
   }
 }
 
