@@ -947,35 +947,25 @@ a
 .container {
     display: flex;
     align-items: center;
-    outline: 1px solid #eed;
     font-size: 42pt;
     padding: 0 12.5vw;
-    height: 200vh;
+    height: 300vh;
 }
 
 .block {
-    background: #223;
-    color: #eed;
     line-height: 25vh;
     text-align: right;
-    margin-top: 20vh;
-    height: 200px;
-    width: 400px;
+    width: 100%;
+    height: auto;
     position: relative;
 }
 
 span {
-    background: #eed;
-    color: #223;
-    line-height: 25vh;
-    text-align: left;
-    padding: 0 42pt;
     display: block;
-    width: 50%;
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    box-sizing: border-box;
 }
 
 #navbarTitlesContainer
@@ -1006,6 +996,7 @@ span {
     position: absolute;
     top: 24.5%;
     left: 35.5%;
+    z-index: -3;
 }
 
 .rightSideText
@@ -1014,4 +1005,129 @@ span {
     font-weight: 400;
     line-height: 37px;
     font-family: 'Roboto', sans-serif;
+}
+
+#clupeaIlishaImage
+{
+    width: 60%;
+    height: auto;
+    position: absolute;
+    left: -10vw;
+    top: 10vh;
+    z-index: -5;
+}
+#hilsaFishTextOne
+{
+    width: 35%;
+    z-index: -3;
+    text-align: left;
+    position: absolute;
+    left: 31%;
+}
+#hilsaFishTextTwo
+{
+    width: 35%;
+    z-index: -3;
+    text-align: left;
+    position: absolute;
+    left: 31%;
+    top: 10vh;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+#hilsaVideo
+{
+    width: 45vw;
+    height: auto;
+    position: absolute;
+    top: 0vh;
+    right: 62%;
+}
+
+.leftHandQuote
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: 100;
+    line-height: 37px;
+    width: 41%;
+    text-align: left;
+    position: absolute;
+    top: 55vh;
+    left: -8vw;
+    padding: 0;
+    margin: 0;
+}
+
+.rightHandQuote
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: 100;
+    line-height: 37px;
+    width: 41%;
+    text-align: left;
+    position: absolute;
+    top: 10vh;
+    left: 23vw;
+    padding: 0;
+    margin: 0;
+}
+
+#hilsaOccurances
+{
+    width: 40vw;
+    height: auto;
+    position: absolute;
+    left: 25vw;
+    top: 48vh;
+}
+
+#fishContainer
+{
+    width: 50%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: -73vh;
+    left: -8vw;
+}
+
+.fishermenImages
+{
+    width: 30vw;
+    height: auto;
+    display: block;
+    padding: 10px;
+}
+
+.theFisherTitle
+{
+    top: -70vh;
+}
+
+.theFisherText
+{
+    top: -60vh !important;
+}
+
+#ChandurTrip
+{
+    width: 25vw;
+    height: auto;
+    position: absolute;
+    left: 120vw;
+    top: 103vh;
+}
+
+#fishContainer2
+{
+    width: 50%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 30vh;
+    left: 23vw;
 }
