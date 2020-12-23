@@ -296,7 +296,7 @@ body
 .ChapterName
 {
     font-family: 'Roboto', sans-serif;
-    font-size: 32px;
+    font-size: 34px;
     font-weight: 400;
     line-height: 37px;
     position: absolute;
@@ -741,13 +741,13 @@ li .section-content
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 32px;
+    font-size: 34px;
     font-weight: 400;
     line-height: 37px;
 }
 .focusedSingleSubtitle:hover
 {
-    font-weight: 900;
+    text-decoration: underline;
     cursor: pointer;
 }
 #focusedSubtitlesOne
@@ -978,7 +978,7 @@ span {
 {
     display: block;
     font-family: 'Roboto', sans-serif;
-    font-size: 32px;
+    font-size: 34px;
     font-weight: 400;
     line-height: 37px;
 }
@@ -986,12 +986,11 @@ span {
 
 .navbarTitles:hover
 {
-    font-weight: 900;
+    text-decoration: underline;
 }
 
 .activeNavbarTitle
 {
-    font-weight: 900;
     text-decoration: underline;
 }
 
@@ -1006,7 +1005,7 @@ span {
 
 .rightSideText
 {
-    font-size: 32px;
+    font-size: 34px;
     font-weight: 400;
     line-height: 37px;
     font-family: 'Roboto', sans-serif;
@@ -1135,4 +1134,16 @@ span {
     position: absolute;
     top: 30vh;
     left: 23vw;
+}
+
+#rightSideQuote
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+}
+
+#rightSideQuoteAuthor
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
 }
