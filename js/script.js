@@ -113,6 +113,15 @@ Array.from(groupedFocusedSubtitles).forEach(subtitle => {
   });
 });
 
+hilsaSubchapter.addEventListener('click', function() 
+{
+  hilsaSubchapter.style.textDecoration = "underline";
+  imageInCorner.src = '';
+
+  $('.hilsaContainer').fadeIn(3000);
+
+});
+
  function checkActiveAccordian()
 {
     if (AccordianOne.classList.contains('active'))
@@ -183,10 +192,7 @@ function checkLeftHandSideMM ()
     $(".headingTitle").animate({opacity: 1}, 2500);
     $(".headingItem").animate({opacity: 1}, 2500);
 
-    $('.Layout__wrapper-container').animate(
-      {
-        opacity: 0
-      }, 1500);
+    $('.MMContainer').fadeOut(2000);
   }
 
   else if (leftHandHeadings === false)
