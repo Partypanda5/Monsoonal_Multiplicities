@@ -1,21 +1,13 @@
-var MMTitle = document.getElementById('multipleMonsoons');
-var UATitle = document.getElementById('UA');
-var UrbanAssemblagesNav = document.querySelector('#UrbanAssemblages');
-var InterlocutorsNav = document.querySelector('#Interlocutors');
-var InfrastructureNav = document.querySelector('#Infrastructure');
-var FramingsNav = document.querySelector('#Framings');
-var MattersNav = document.querySelector('#Matters');
-var cityTitle = document.querySelector('.cityTitle');
-
 var accordianContainer = document.querySelector('#accordianSection');
-
-var disableRightHandPanel = false;
+var leftHandSideMM = false;
 
 var contentSection = document.getElementById('primaryPanel');
 var contentSectionTitle = document.getElementById('cityHeadings');
 var primaryPanelContainer = document.querySelector('.Layout__wrapper-container');
 var primaryTitle = document.querySelector('.cityName');
 var contentText = document.querySelector('.contentText');
+var cityTitle = document.querySelector('.cityTitle');
+var leftHandHeadings = document.querySelector('.headings');
 
 var AccordianOne = document.getElementById('sectionOne');
 var AccordianTwo = document.getElementById('sectionTwo');
@@ -33,8 +25,7 @@ var subtitleContainerFour = document.getElementById('subtitleContainerFour');
 var subtitleContainerFive = document.getElementById('subtitleContainerFive');
 var focusedSubtitlesFour = document.getElementById('focusedSubtitlesFour');
 var focusedSubtitlesFive = document.getElementById('focusedSubtitlesFive');
-
-var dhakaScroll = false;
+var groupedFocusedSubtitles = document.querySelectorAll('.focusedSingleSubtitle');
 
 var videoContent = document.getElementById('videoContent');
 
@@ -52,6 +43,13 @@ function toggleAccordion()
   $(this).addClass('active');
 }
 
+Array.from(groupedFocusedSubtitles).forEach(subtitle => {
+  subtitle.addEventListener('click', function(event) 
+  {
+    leftHandSideMM = true;
+    checkLeftHandSideMM();  
+  });
+});
 
  function checkActiveAccordian()
 {
@@ -114,11 +112,25 @@ function checkInactiveAccordian()
     subtitleContainerFive.style.display = 'inline';
     focusedSubtitlesFive.style.display = 'none';
   }
+}
 
-  if (!$(sectionFive).hasClass("active") && disableRightHandPanel === true)
+function checkLeftHandSideMM () 
+{
+  if (leftHandSideMM === true)
   {
-    subtitleContainerFive.style.display = 'none';
-    focusedSubtitlesFive.style.display = 'none';
+    $(".headingTitle").animate({opacity: 1}, 2500);
+    $(".headingItem").animate({opacity: 1}, 2500);
+
+    $('.Layout__wrapper-container').animate(
+      {
+        opacity: 0
+      }, 1500);
+  }
+
+  else if (leftHandHeadings === false)
+  {
+    $(".headingTitle").animate({opacity: 0}, 1000);
+    $(".headingItem").animate({opacity: 0}, 1000);
   }
 }
 
