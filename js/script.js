@@ -9,6 +9,18 @@ var contentText = document.querySelector('.contentText');
 var cityTitle = document.querySelector('.cityTitle');
 var leftHandHeadings = document.querySelector('.headings');
 
+var imageInCorner = document.querySelector('#imageInCorner');
+var airSubchapter = document.querySelector('#airFocus');
+var atmosphereSubchapter = document.querySelector('#atmosphereFocus');
+var groundwaterSubchapter = document.querySelector('#groundwaterFocus');
+var oceanSubchapter = document.querySelector('#oceanFocus');
+var saltSubchapter = document.querySelector('#saltFocus');
+var sedimentSubchapter = document.querySelector('#sedimentFocus');
+var dragonSubchapter = document.querySelector('#dragonFliesFocus');
+var hilsaSubchapter = document.querySelector('#HilsaFishairFocus');
+var snakesSubchapter = document.querySelector('#SnakesFocus');
+var weedsSubchapter = document.querySelector('#WeedsFocus');
+
 var AccordianOne = document.getElementById('sectionOne');
 var AccordianTwo = document.getElementById('sectionTwo');
 var AccordianThree = document.getElementById('sectionThree');
@@ -42,6 +54,56 @@ function toggleAccordion()
   section.removeClass('active');
   $(this).addClass('active');
 }
+
+dragonSubchapter.addEventListener('mouseover', function() 
+{
+  imageInCorner.src = 'assets/images/bottomRightImages/Dragonfly.jpg';
+});
+
+hilsaSubchapter.addEventListener('mouseover', function() 
+{
+  imageInCorner.src = 'assets/images/bottomRightImages/Hilsa-fish2.jpg';
+});
+
+snakesSubchapter.addEventListener('mouseover', function() 
+{
+  imageInCorner.src = 'assets/images/bottomRightImages/snakes.gif';
+});
+
+weedsSubchapter.addEventListener('mouseover', function() 
+{
+  imageInCorner.src = 'assets/images/bottomRightImages/weed.jpg';
+});
+
+airSubchapter.addEventListener('mouseover', function() 
+{
+  imageInCorner.src = 'assets/images/bottomRightImages/air.gif';
+});
+
+atmosphereSubchapter.addEventListener('mouseover', function() 
+{
+  imageInCorner.src = 'assets/images/bottomRightImages/atmosphere3.gif';
+});
+
+groundwaterSubchapter.addEventListener('mouseover', function() 
+{
+  imageInCorner.src = 'assets/images/bottomRightImages/Groundwater.jpg';
+});
+
+oceanSubchapter.addEventListener('mouseover', function() 
+{
+  imageInCorner.src = 'assets/images/bottomRightImages/OCEAN.jpg';
+});
+
+saltSubchapter.addEventListener('mouseover', function() 
+{
+  imageInCorner.src = 'assets/images/bottomRightImages/salt.jpg';
+});
+
+sedimentSubchapter.addEventListener('mouseover', function() 
+{
+  imageInCorner.src = 'assets/images/bottomRightImages/sediment2.gif';
+});
 
 Array.from(groupedFocusedSubtitles).forEach(subtitle => {
   subtitle.addEventListener('click', function(event) 

@@ -1150,10 +1150,9 @@ span {
 #bottomRightHandCornerImage
 {
     width: 565px;
-    height: 370px;
-    background-color: black;
+    height: 400px;
     position: absolute;
-    bottom: 10px;
+    bottom: -20px;
     right: 56px;
     z-index: -5;
     overflow: hidden;
