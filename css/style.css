@@ -50,7 +50,7 @@ body
     right: -3px;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
-    opacity: 0;
+    opacity: 1;
 }
 .headingItem
 {
@@ -62,23 +62,37 @@ body
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    opacity: 0;
+    opacity: 1;
 }
-#project
+#events
 {
-    top: 26vh;
-}
-#calendar
-{
-    top: 35vh;
+    top: 25.8vh;
+    left: 0.2vw;
 }
 #residency
 {
-    top: 48vh;
+    top: 28vh;
+    left: 0.2vw;
 }
-#assemblages
+#glossary
 {
-    top: 61vh;
+    top: 32.5vh;
+    left: 0.2vw;
+}
+#collaborators
+{
+    top: 36vh;
+    left: 0.2vw;
+}
+#acknowledgements
+{
+    top: 42.5vh;
+    left: 0.2vw;
+}
+#monsoonAssemblages
+{
+    top: 53.2vh;
+    left: 0.2vw;
 }
 #scene
 {
@@ -515,23 +529,23 @@ body
 }
 #DragonFlies
 {
-    bottom: 18vh;
-    right: 5.5vw;
+    bottom: 17.8vh;
+    right: 5.99vw
 }
 #HilsaFish
 {
     bottom: 9.5vh;
-    right: 6vw;
+    right: 6.5vw;
 }
 #Snakes
 {
     bottom: 2.5vh;
-    right: 6.4vw;
+    right: 7vw;
 }
 #Weeds
 {
     bottom: -3.5vh;
-    right: 6.5vw;
+    right: 7.1vw;
 }
 #Bricks
 {
@@ -582,32 +596,42 @@ body
 #Time
 {
     bottom: -9.5vh;
-    right: 0.3vw;
+    right: 0.4vw;
+}
+#Pedagogy
+{
+    bottom: -15.6vh;
+    right: -0.5vw;
 }
 #Air
 {
-    bottom: -29vh;
+    bottom: -29.5vh;
     right: 18.9vw;
+}
+#Atmosphere
+{
+    bottom: -35vh;
+    right: 17.2vw;
 }
 #Groundwater
 {
     right: 17.1vw;
-    bottom: -35.3vh;
+    bottom: -44vh;
 }
 #Ocean
 {
     right: 18.3vw;
-    bottom: -42.8vh;
+    bottom: -51.3vh;
 }
 #Salt
 {
-    right: 18.85vw;
-    bottom: -47vh;
+    right: 18.8vw;
+    bottom: -55.5vh;
 }
 #Sediment
 {
-    right: 17.7vw;
-    bottom: -52.5vh;
+    right: 17.75vw;
+    bottom: -61vh;
 }
 #ChennaiNav
 {
@@ -621,13 +645,13 @@ body
 }
 #LondonNav
 {
-    right: 18.1vw;
-    bottom: -42.5vh;
+    right: 18vw;
+    bottom: -49vh;
 }
 #YangonNav
 {
-    right: 18vw;
-    bottom: -49vh;
+    right: 18.1vw;
+    bottom: -42.5vh;
 }
 ul 
 {
@@ -728,27 +752,27 @@ li .section-content
 }
 #focusedSubtitlesOne
 {
-    bottom: 56vh;
-    left: -10.2vw;
+    bottom: 52.8vh;
+    left: -3.3vw;
 }
 #focusedSubtitlesTwo
 {
-    bottom: 52.8vh;
-    left: -5.6vw;
+    bottom: 56vh;
+    left: -8.8vw;
 }
 #focusedSubtitlesThree
 {
-    left: -3.5vw;
-    bottom: 52.5vh;
+    left: -2vw;
+    bottom: 49vh;
 }
 #focusedSubtitlesFour
 {
-    left: -3vw;
-    bottom: 52.5vh;
+    left: -1vw;
+    bottom: 49vh;
 }
 #focusedSubtitlesFive
 {
-    left: -8vw;
+    left: -6.2vw;
     bottom: 56vh;
 }
 a
@@ -780,15 +804,15 @@ a
   #Interlocutors
   {
       position: relative;
-      top: 10vh;
-      right: 2.5vw;
+      top: 5.3vh;
+      right: 0vw;
   }
 
   #Infrastructure
   {
       position: relative;
-      top: 5vh;
-      right: 8px;
+      top: 9.8vh;
+      right: 55px;
   }
 
   #Framings
@@ -810,10 +834,6 @@ a
       position: relative;
       top: 7.5vh;
       right: 30px;
-  }
-  #UrbanAssemblages:hover
-  {
-      cursor: pointer;
   }
   .subtitleContainer
   {
@@ -880,27 +900,6 @@ a
       width: 50vw;
       z-index: 5;
       opacity: 0;
-  }
-
-  .focusedSingleSubtitle:before 
-  {
-    content: '◀ ';
-    position: relative;
-    opacity: 0;  
-    left: 0;
-    transition: 0.5s;
-  }
-  
-  .focusedSingleSubtitle:hover
-  {
-    padding-right: 24px;
-    padding-left:8px;
-  }
-  
-  .focusedSingleSubtitle:hover:before 
-  {
-    opacity: 1;
-    right: 10px;
   }
 
   .Layout__wrapper-container {
@@ -971,7 +970,7 @@ span {
 #navbarTitlesContainer
 {
     position: absolute;
-    top: 27%;
+    top: 27.5%;
     left: 4.5%;
 }
 
@@ -982,6 +981,12 @@ span {
     font-size: 32px;
     font-weight: 400;
     line-height: 37px;
+}
+
+
+.navbarTitles:hover
+{
+    font-weight: 900;
 }
 
 .activeNavbarTitle
