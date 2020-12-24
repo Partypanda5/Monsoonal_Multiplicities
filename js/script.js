@@ -1,6 +1,7 @@
 var accordianContainer = document.querySelector('#accordianSection');
 var leftHandSideMM = false;
 
+
 var contentSection = document.getElementById('primaryPanel');
 var contentSectionTitle = document.getElementById('cityHeadings');
 var primaryPanelContainer = document.querySelector('.Layout__wrapper-container');
@@ -116,10 +117,15 @@ Array.from(groupedFocusedSubtitles).forEach(subtitle => {
 hilsaSubchapter.addEventListener('click', function() 
 {
   hilsaSubchapter.style.textDecoration = "underline";
+  imageInCorner.style.display = "none";
   imageInCorner.src = '';
 
   $('.hilsaContainer').fadeIn(3000);
 
+  setTimeout(function()
+  { 
+    imageInCorner.style.display = "block";
+  }, 4000);
 });
 
  function checkActiveAccordian()
