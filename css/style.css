@@ -1053,11 +1053,11 @@ span {
 }
 #hilsaFishTextTwo
 {
-    width: 35%;
+    width: 33%;
     z-index: -3;
     text-align: left;
     position: absolute;
-    left: 34%;
+    left: 38%;
     top: 10vh;
     font-size: 20px;
     font-weight: 400;
@@ -1069,8 +1069,8 @@ span {
     width: 45vw;
     height: auto;
     position: absolute;
-    top: 10vh;
-    right: 62%;
+    top: 47vh;
+    right: 55%;
 }
 
 .leftHandQuote
@@ -1082,7 +1082,7 @@ span {
     width: 30%;
     text-align: left;
     position: absolute;
-    top: 55vh;
+    top: 33vh;
     left: -8vw;
     padding: 0;
     margin: 0;
@@ -1091,10 +1091,10 @@ span {
 .rightHandQuote
 {
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
-    line-height: 17px;
-    width: 20%;
+    line-height: 20px;
+    width: 22%;
     text-align: left;
     position: absolute;
     top: 45vh;
@@ -1108,16 +1108,16 @@ span {
     left: 25vw;
     top: 42vh;
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 #hilsaLeftSideQuoteAuthor
 {
     position: absolute;
     left: -7.5vw;
-    top: 55vh;
+    top: 35vh;
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 #hilsaOccurances
@@ -1125,8 +1125,8 @@ span {
     width: 40vw;
     height: auto;
     position: absolute;
-    left: 25vw;
-    top: 52vh;
+    left: 20vw;
+    top: 0vh;
 }
 
 #fishContainer
@@ -1163,6 +1163,7 @@ span {
 .theFisherText
 {
     top: -60vh !important;
+    left: 33.5% !important;
 }
 
 #ChandurTrip
@@ -1195,6 +1196,11 @@ span {
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
 }
+#rightSideQuoteAuthorTop
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
 
 #bottomRightHandCornerImage
 {
@@ -1215,4 +1221,10 @@ span {
     right: -9999px;
     bottom: -9999px;
     margin: auto;
+}
+
+.hilsaAndMoon
+{
+    top: -15vh;
+    left: 35% !important;
 }
