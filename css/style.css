@@ -654,8 +654,8 @@ body
 ul 
 {
     display: flex;
-    min-height: 100vh;
-    max-height: 100vh;
+    min-height: 101vh;
+    max-height: 101vh;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -955,7 +955,12 @@ a
     align-items: center;
     font-size: 42pt;
     padding: 0 12.5vw;
-    height:  250vh;
+    height:  155vh;
+}
+
+#subchapterTwo
+{
+    margin-top: 35vh;
 }
 
 .block {
@@ -1057,8 +1062,8 @@ span {
     z-index: -3;
     text-align: left;
     position: absolute;
-    left: 38%;
-    top: 10vh;
+    left: 38.5%;
+    top: 5vh;
     font-size: 20px;
     font-weight: 400;
     line-height: 25px;
@@ -1069,7 +1074,7 @@ span {
     width: 45vw;
     height: auto;
     position: absolute;
-    top: 47vh;
+    top: 40vh;
     right: 55%;
 }
 
@@ -1078,7 +1083,7 @@ span {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 25px;
     width: 30%;
     text-align: left;
     position: absolute;
@@ -1093,7 +1098,7 @@ span {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 25px;
     width: 22%;
     text-align: left;
     position: absolute;
@@ -1106,7 +1111,7 @@ span {
 {
     position: absolute;
     left: 25vw;
-    top: 42vh;
+    top: 44vh;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
@@ -1115,7 +1120,7 @@ span {
 {
     position: absolute;
     left: -7.5vw;
-    top: 35vh;
+    top: 37.5vh;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }

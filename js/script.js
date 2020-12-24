@@ -22,6 +22,8 @@ var hilsaSubchapter = document.querySelector('#HilsaFishairFocus');
 var snakesSubchapter = document.querySelector('#SnakesFocus');
 var weedsSubchapter = document.querySelector('#WeedsFocus');
 
+var hilsaSmallTabHeading = document.querySelector('#HilsaFish');
+
 var AccordianOne = document.getElementById('sectionOne');
 var AccordianTwo = document.getElementById('sectionTwo');
 var AccordianThree = document.getElementById('sectionThree');
@@ -120,7 +122,9 @@ hilsaSubchapter.addEventListener('click', function()
   imageInCorner.style.display = "none";
   imageInCorner.src = '';
 
-  $('.hilsaContainer').fadeIn(3000);
+  hilsaSmallTabHeading.style.textDecoration = "underline";
+
+  $('.hilsaContainer').fadeIn(4000);
 
   setTimeout(function()
   { 
