@@ -1,6 +1,6 @@
 var accordianContainer = document.querySelector('#accordianSection');
+var monsoonalMultiplicitiesTitle = document.querySelector('#multipleMonsoons');
 var leftHandSideMM = false;
-
 
 var contentSection = document.getElementById('primaryPanel');
 var contentSectionTitle = document.getElementById('cityHeadings');
@@ -188,6 +188,13 @@ Array.from(groupedFocusedSubtitles).forEach(subtitle => {
   });
 });
 
+monsoonalMultiplicitiesTitle.addEventListener('click', function() 
+{
+  leftHandSideMM = false;
+  checkLeftHandSideMM(); 
+  $('.MMContainer').fadeIn(2000);
+});
+
 hilsaSubchapter.addEventListener('click', function() 
 {
   hilsaSubchapter.style.textDecoration = "underline";
@@ -277,7 +284,7 @@ function checkLeftHandSideMM ()
     $('.MMContainer').fadeOut(2000);
   }
 
-  else if (leftHandHeadings === false)
+  else if (leftHandSideMM === false)
   {
     $(".headingTitle").animate({opacity: 0}, 1000);
     $(".headingItem").animate({opacity: 0}, 1000);
