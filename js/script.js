@@ -21,6 +21,18 @@ var dragonSubchapter = document.querySelector('#dragonFliesFocus');
 var hilsaSubchapter = document.querySelector('#HilsaFishairFocus');
 var snakesSubchapter = document.querySelector('#SnakesFocus');
 var weedsSubchapter = document.querySelector('#WeedsFocus');
+var khalsSubchapter = document.querySelector('#khalsFocus');
+var tankSubchapter = document.querySelector('#tanksFocus');
+var pipesPotsSubchapter = document.querySelector('#pipesPotsFocus');
+var timeSubchapter = document.querySelector('#timeFocused');
+var pedagogySubchapter = document.querySelector('#pedagogyFocused');
+var spaceSubchapter = document.querySelector('#spaceFocused');
+var drawingSubchapter = document.querySelector('#drawingFocused');
+var ethnographySubchapter = document.querySelector('#ethnographyFocused');
+var londonSubchapter = document.querySelector('#londonFocus');
+var yangonSubchapter = document.querySelector('#yangonFocus');
+var dhakaSubchapter = document.querySelector('#dhakaFocus');
+var chennaiSubchapter = document.querySelector('#chennaiFocus');
 
 var hilsaSmallTabHeading = document.querySelector('#HilsaFish');
 
@@ -106,6 +118,66 @@ saltSubchapter.addEventListener('mouseover', function()
 sedimentSubchapter.addEventListener('mouseover', function() 
 {
   imageInCorner.src = 'assets/images/bottomRightImages/sediment2.gif';
+});
+
+khalsSubchapter.addEventListener('mouseover', function() 
+{
+  imageInCorner.src = 'assets/images/bottomRightImages/Khals.jpg';
+});
+
+tankSubchapter.addEventListener('mouseover', function() 
+{
+  imageInCorner.src = 'assets/images/bottomRightImages/Tanks2.jpg';
+});
+
+pipesPotsSubchapter.addEventListener('mouseover', function() 
+{
+  imageInCorner.src = 'assets/images/bottomRightImages/PipesPots.jpg';
+});
+
+timeSubchapter.addEventListener('mouseover', function() 
+{
+  imageInCorner.src = 'assets/images/bottomRightImages/time.gif';
+});
+
+pedagogySubchapter.addEventListener('mouseover', function() 
+{
+  imageInCorner.src = 'assets/images/bottomRightImages/pedagogy2.gif';
+});
+
+spaceSubchapter.addEventListener('mouseover', function() 
+{
+  imageInCorner.src = 'assets/images/bottomRightImages/space.gif';
+});
+
+drawingSubchapter.addEventListener('mouseover', function() 
+{
+  imageInCorner.src = 'assets/images/bottomRightImages/drawing.jpg';
+});
+
+ethnographySubchapter.addEventListener('mouseover', function() 
+{
+  imageInCorner.src = 'assets/images/bottomRightImages/ethnography.gif';
+});
+
+chennaiSubchapter.addEventListener('mouseover', function() 
+{
+  imageInCorner.src = 'assets/images/bottomRightImages/chennai.gif';
+});
+
+dhakaSubchapter.addEventListener('mouseover', function() 
+{
+  imageInCorner.src = 'assets/images/bottomRightImages/dhaka.gif';
+});
+
+londonSubchapter.addEventListener('mouseover', function() 
+{
+  imageInCorner.src = 'assets/images/bottomRightImages/London.jpg';
+});
+
+yangonSubchapter.addEventListener('mouseover', function() 
+{
+  imageInCorner.src = 'assets/images/bottomRightImages/Yangon.gif';
 });
 
 Array.from(groupedFocusedSubtitles).forEach(subtitle => {
