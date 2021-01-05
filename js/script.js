@@ -192,6 +192,7 @@ monsoonalMultiplicitiesTitle.addEventListener('click', function()
 {
   leftHandSideMM = false;
   checkLeftHandSideMM(); 
+  $('.hilsaContainer').fadeOut(1000);
   $('.MMContainer').fadeIn(2000);
 });
 
