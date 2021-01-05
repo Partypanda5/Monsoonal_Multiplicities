@@ -152,7 +152,7 @@ spaceSubchapter.addEventListener('mouseover', function()
 
 drawingSubchapter.addEventListener('mouseover', function() 
 {
-  imageInCorner.src = 'assets/images/bottomRightImages/drawing.jpg';
+  imageInCorner.src = 'assets/images/bottomRightImages/Drawing.jpg';
 });
 
 ethnographySubchapter.addEventListener('mouseover', function() 
