@@ -181,7 +181,8 @@ body
     width: 0;
   }
 
-  .cityTitlePrimary:hover:after { 
+  .cityTitlePrimary:hover:after 
+  { 
     width: 100%; 
     left: 0;
   }
@@ -222,291 +223,7 @@ body
     line-height: 25px;
     width: 26vw;
 }
-.hydrologicalContentText
-{
-    position: absolute;
-    width: 28vw;
-    height: 100vh;
-    left: 33.5vw;
-    top: 26.5vh;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    padding: 10px;
-    font-family: 'Roboto', sans-serif;
-}
 
-.TerritorialDisruptionText
-{
-    position: absolute;
-    width: 22vw;
-    height: 100vh;
-    right: 6vw;
-    top: 15vh;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    padding: 10px;
-    font-family: 'Roboto', sans-serif;
-}
-
-#TerritorialDisruptionPrimaryPanel
-{
-    position: relative;
-    width: 28vw;
-    height: 100vh;
-    left: 0.5vw;
-    top: 23vh;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    padding: 10px;
-}
-#YeGyanZin
-{
-    position: relative;
-    width: 28vw;
-    height: 100vh;
-    left: -0.5vw;
-    top: 33vh;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    padding: 10px;
-}
-
-#potScroll
-{
-    width: 25vw;
-    height: 73.5vh;
-    position: absolute;
-    bottom: 0vh;
-    left: 35vw;
-    overflow-y: scroll;
-    overflow-x: 0;
-    z-index: 5;
-    display: none;
-}
-.pots
-{
-    width: 100%;
-    height: auto;
-    position: relative;
-    padding: 0;
-    margin: 0;
-}
-.ChapterName
-{
-    font-family: 'Roboto', sans-serif;
-    font-size: 34px;
-    font-weight: 400;
-    line-height: 37px;
-    position: absolute;
-    left: 0.8vw;
-    top: 5vh;
-}
-.YeGyanZinChapterName
-{
-    font-family: 'Roboto', sans-serif;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 37px;
-    position: absolute;
-    left: 1.1vw;
-    top: 5vh;
-    display: none;
-}
-#TerritorialDisruptionVideo
-{
-    width: 33vw;
-    height: 30vw;
-    position: absolute;
-    left: 33vw;
-    bottom: 28vh;
-    display: block;
-    opacity: 0;
-}
-#TerritorialDisruptionImage1
-{
-    left: 3vw;
-    display: block;
-    opacity: 0;
-}
-#TerritorialDisruptionImage2
-{
-    left: 33vw;
-    display: block;
-    opacity: 0;
-}
-#TerritorialDisruptionImage3
-{
-    left: 66vw;
-    display: block;
-    opacity: 0;
-}
-
-#TerritorialDisruptionImage4
-{
-    left: 3vw;
-    display: block;
-    opacity: 0;
-    bottom: 31vh;
-}
-#TerritorialDisruptionImage5
-{
-    left: 33vw;
-    display: block;
-    opacity: 0;
-    bottom: 31vh;
-}
-#TerritorialDisruptionImage6
-{
-    left: 66vw;
-    display: block;
-    opacity: 0;
-    width: 36.3vw;
-    height: auto;
-    bottom: 31vh;
-}
-
-#TerritorialDisruptionImage7
-{
-    left: 3vw;
-    display: block;
-    opacity: 0;
-    width: 30vw;
-    height: auto;
-    bottom: -5vh;
-}
-#TerritorialDisruptionImage8
-{
-    left: 33vw;
-    display: block;
-    opacity: 0;
-    bottom: -7vh;
-}
-#TerritorialDisruptionImage9
-{
-    left: 66vw;
-    display: block;
-    opacity: 0;
-    bottom: -7vh;
-}
-.TerritorialDisruptionImages
-{
-    width: 40vw;
-    height: 40vh;
-    position: absolute;
-    bottom: 0;
-}
-
-#InfrastructuraExcessVideo
-{
-    width: 33vw;
-    height: 55vh;
-    position: absolute;
-    left: 3vw;
-    bottom: -10vh;
-    opacity: 1;
-    display: none;
-}
-.InfrastructuralExcess
-{
-    width: 40vw;
-    height: 40vh;
-    position: absolute;
-    bottom: 0;
-}
-
-#InfrastructuraExcessImage1
-{
-    left: 66vw;
-    display: block;
-    opacity: 1;
-    bottom: 0vh;
-    width: 35vw;
-    height: 35vh;
-    display: none;
-}
-
-#InfrastructuraExcessImage2
-{
-    left: 36vw;
-    width: 30vw;
-    height: auto;
-    display: block;
-    opacity: 1;
-    bottom: 35vh;
-    display: none;
-}
-
-#TerraTerraAqueous1
-{
-    width: 33vw;
-    height: 55vh;
-    position: absolute;
-    left: 3vw;
-    bottom: -10vh;
-    opacity: 1;
-    display: none;
-}
-#TerraTerraAqueous2
-{
-    width: 30vw;
-    height: 55vh;
-    position: absolute;
-    left: 36vw;
-    bottom: 23.5vh;
-    opacity: 1;
-    display: none;
-}
-#TerraTerraAqueous3
-{
-    width: 33vw;
-    height: 55vh;
-    position: absolute;
-    left: 36vw;
-    bottom: -10vh;
-    opacity: 1;
-    display: none;
-}
-#FisherPrimaryPanel
-{
-    position: relative;
-    width: 18vw;
-    height: 100vh;
-    left: 0vw;
-    top: 30vh;
-    padding: 10px;
-    font-size: 19px;
-}
-
-.fishImages
-{
-    position: absolute;
-    width: 27vw;
-    height: auto;
-    left: 36vw;
-}
-#fishImage1
-{
-    top: 30vh;
-}
-#fishImage2
-{
-    top: 63vh;
-}
-.fisherText
-{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-}
-#blueLinesOne
-{
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    bottom: 0;
-    display: block;
-    z-index: -5;
-    display: none;
-}
 #accordianSection
 {
     position: relative;
@@ -519,137 +236,11 @@ body
 }
 .tabSubtitles
 {
-    position: absolute;
-    transform: rotate(90deg);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;
-}
-#DragonFlies
-{
-    bottom: 17.8vh;
-    right: 5.99vw
-}
-#HilsaFish
-{
-    bottom: 9.5vh;
-    right: 6.5vw;
-}
-#Snakes
-{
-    bottom: 2.5vh;
-    right: 7vw;
-}
-#Weeds
-{
-    bottom: -3.5vh;
-    right: 7.1vw;
-}
-#Bricks
-{
-    bottom: 20vh;
-    right: 2.2vw;
-}
-#Khals
-{
-    bottom: 15vh;
-    right: 2.3vw;
-}
-#PipesAndPots
-{
-    bottom: 8vh;
-    right: 0.8vw;
-    width: 5vw;
-}
-#Plastic
-{
-    bottom: 0.5vh;
-    right: 2.1vw;
-}
-#Tanks
-{
-    bottom: -4.8vh;
-    right: 2.2vw;
-}
-#Atmoshere
-{
-    bottom: 18.2vh;
-    right: -0.7vw;
-}
-#Drawing
-{
-    bottom: 19.1vh;
-    right: -0.2vw;
-}
-#Ethnography
-{
-    bottom: 11.5vh;
-    right: -0.9vw;
-}
-#Space
-{
-    bottom: 4.5vh;
-    right: 0.25vw;
-}
-#Time
-{
-    bottom: 0.1vh;
-    right: 0.55vw;
-}
-#Pedagogy
-{
-    bottom: -5.6vh;
-    right: -0.3vw;
-}
-#Air
-{
-    bottom: -29.5vh;
-    right: 18.9vw;
-}
-#Atmosphere
-{
-    bottom: -35vh;
-    right: 17.2vw;
-}
-#Groundwater
-{
-    right: 17.1vw;
-    bottom: -44vh;
-}
-#Ocean
-{
-    right: 18.3vw;
-    bottom: -51.3vh;
-}
-#Salt
-{
-    right: 18.8vw;
-    bottom: -55.5vh;
-}
-#Sediment
-{
-    right: 17.75vw;
-    bottom: -61vh;
-}
-#ChennaiNav
-{
-    right: 17.8vw;
-    bottom: -31vh;
-}
-#DhakaNav
-{
-    right: 18.25vw;
-    bottom: -36.5vh;
-}
-#LondonNav
-{
-    right: 18vw;
-    bottom: -49vh;
-}
-#YangonNav
-{
-    right: 18.1vw;
-    bottom: -42.5vh;
+    display: inline-block;
+    padding-top: 5px;
 }
 ul 
 {
@@ -836,8 +427,38 @@ a
   }
   .subtitleContainer
   {
-      display: inline;
-      font-weight: 400;
+    writing-mode: vertical-lr;
+    text-align: center;
+    transform:rotate(360deg);
+    height:100vh;
+    display: block;
+    position: relative;
+    top: 36vh;
+    right: 5vw;
+  } 
+
+  #subtitleContainerTwo
+  {
+      right: 10vw;
+      top: 35.5vh;
+  }
+
+  #subtitleContainerThree
+  {
+      right: 3vw;
+      top: 37.8vh;
+  }
+
+  #subtitleContainerFour
+  {
+    right: 2.4vw;
+    top: 40vh;
+  }
+
+  #subtitleContainerFive
+  {
+    right: 7.5vw;
+    top: 33vh;
   }
 
   #dhakaVideo
@@ -873,33 +494,6 @@ a
     cursor: -webkit-zoom-in;
   }
 
-  #hydrologicalImage
-  {
-      width: 32vw;
-      height: 0%;
-      height: auto;
-      overflow-y: scroll;
-  }
-
-  #hydroTitle
-  {
-    font-family: 'Roboto', sans-serif;
-  }
-
-  #explore
-  {
-      z-index: 5;
-  }
-
-  #backHyrdo
-  {
-      position: absolute;
-      left: 22vw;
-      top: 95vh;
-      width: 50vw;
-      z-index: 5;
-      opacity: 0;
-  }
 
 .Layout__wrapper-container 
 {
@@ -936,275 +530,11 @@ a
     flex: 100%;
 }
 
-.hilsaContainer
-{
-    max-width: 100vw;
-    flex: 100%;
-    display: none;
-}
-
-.col {
-    text-align: center;
-    width: 50%;
-    float: left;
-    box-sizing: border-box;
-}
-
-.container {
-    display: flex;
-    align-items: center;
-    font-size: 42pt;
-    padding: 0 12.5vw;
-    height:  155vh;
-}
-
-#subchapterTwo
-{
-    margin-top: 35vh;
-}
-
-.block {
-    line-height: 25vh;
-    text-align: right;
-    width: 100%;
-    height: auto;
-    position: relative;
-}
-
-span {
-    display: block;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
 #navbarTitlesContainer
 {
     position: fixed;
     top: 27.5%;
     left: 4.5%;
-}
-
-#ParallaxHeadingContainer
-{
-    position: absolute;
-    top: 27.5%;
-    left: 4.5%;
-}
-
-.ParallaxHeading
-{
-    display: block;
-    font-family: 'Roboto', sans-serif;
-    font-size: 34px;
-    font-weight: 400;
-    line-height: 37px;
-}
-
-.navbarTitles
-{
-    display: block;
-    font-family: 'Roboto', sans-serif;
-    font-size: 34px;
-    font-weight: 400;
-    line-height: 37px;
-}
-
-
-.navbarTitles:hover
-{
-    text-decoration: underline;
-}
-
-.activeNavbarTitle
-{
-    text-decoration: underline;
-}
-
-#RightTextContainer
-{
-    width: 26%;
-    position: absolute;
-    top: 24.5%;
-    left: 39%;
-    z-index: -3;
-}
-
-.rightSideText
-{
-    font-size: 34px;
-    font-weight: 400;
-    line-height: 37px;
-    font-family: 'Roboto', sans-serif;
-}
-
-#clupeaIlishaImage
-{
-    width: 60%;
-    height: auto;
-    position: absolute;
-    left: -10vw;
-    top: 10vh;
-    z-index: -5;
-}
-#hilsaFishTextOne
-{
-    width: 35%;
-    z-index: -3;
-    text-align: left;
-    position: absolute;
-    left: 33.5%;
-}
-#hilsaFishTextTwo
-{
-    width: 33%;
-    z-index: -3;
-    text-align: left;
-    position: absolute;
-    left: 38.5%;
-    top: 5vh;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 25px;
-    font-family: 'Roboto', sans-serif;
-}
-#hilsaVideo
-{
-    width: 45vw;
-    height: auto;
-    position: absolute;
-    top: 40vh;
-    right: 55%;
-}
-
-.leftHandQuote
-{
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 25px;
-    width: 30%;
-    text-align: left;
-    position: absolute;
-    top: 33vh;
-    left: -8vw;
-    padding: 0;
-    margin: 0;
-}
-
-.rightHandQuote
-{
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 25px;
-    width: 22%;
-    text-align: left;
-    position: absolute;
-    top: 45vh;
-    left: 25vw;
-    padding: 0;
-    margin: 0;
-}
-#hilsaRightSideQuoteAuthor
-{
-    position: absolute;
-    left: 25vw;
-    top: 44vh;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-}
-
-#hilsaLeftSideQuoteAuthor
-{
-    position: absolute;
-    left: -7.5vw;
-    top: 37.5vh;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-}
-
-#hilsaOccurances
-{
-    width: 40vw;
-    height: auto;
-    position: absolute;
-    left: 20vw;
-    top: 0vh;
-}
-
-#fishContainer
-{
-    width: 50%;
-    height: 100%;
-    display: block;
-    position: absolute;
-    top: -73vh;
-    left: -8vw;
-}
-
-.fishermenImages
-{
-    width: 30vw;
-    height: auto;
-    display: block;
-    padding: 10px;
-}
-
-.fishermenImages2
-{
-    width: 27vw;
-    height: auto;
-    display: block;
-    padding: 10px;
-}
-
-.theFisherTitle
-{
-    top: -70vh;
-}
-
-.theFisherText
-{
-    top: -60vh !important;
-    left: 33.5% !important;
-}
-
-#ChandurTrip
-{
-    width: 25vw;
-    height: auto;
-    position: absolute;
-    left: 120vw;
-    top: 103vh;
-}
-
-#fishContainer2
-{
-    width: 50%;
-    height: 100%;
-    display: block;
-    position: absolute;
-    top: -23vh;
-    left: 24.5vw;
-}
-
-#rightSideQuote
-{
-    font-family: 'Roboto', sans-serif;
-    font-size: 34px;
-}
-
-#rightSideQuoteAuthor
-{
-    font-family: 'Roboto', sans-serif;
-    font-size: 22px;
-}
-#rightSideQuoteAuthorTop
-{
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
 }
 
 #bottomRightHandCornerImage
@@ -1226,10 +556,4 @@ span {
     right: -9999px;
     bottom: -9999px;
     margin: auto;
-}
-
-.hilsaAndMoon
-{
-    top: -15vh;
-    left: 35% !important;
 }
