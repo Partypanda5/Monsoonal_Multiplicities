@@ -280,16 +280,34 @@
     height: 100%;
     display: block;
     position: absolute;
-    top: -32vh;
+    top: -32.2vh;
     left: -8.5vw;
+}
+
+#middleShipContainer
+{
+    width: 50%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: -32.3vh;
+    left: 7.4vw;
+}
+
+.middleShips
+{
+    width: 31vw;
+    height: auto;
+    display: block;
+    padding: 10px;
 }
 
 .leftSmallShips
 {
-    width: 15.5vw;
+    width: 15.8vw;
     height: auto;
     display: block;
-    padding: 10px;
+    padding: 11px;
 }
 
 .imageDescription
@@ -326,4 +344,283 @@
 {
     left: 39.5vw;
     top: -91vh;
+}
+
+#imageDescriptionTwo
+{
+    left: 39.5vw;
+    top: -107vh;
+}
+
+#imageDescriptionTwo
+{
+    left: 39.5vw;
+    top: -7vh;
+}
+
+#scientistTitle
+{
+    position: absolute;
+    left: 31.5%;
+    top: -107vh;
+}
+
+#scientistText
+{
+    left: 31.5%;
+    top: -98vh;
+}
+
+.initialText
+{
+    width: 35%;
+    text-align: left;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#scientistOne
+{
+    position: absolute;
+    top: -104.5vh;
+    left: -11.3%;
+}
+
+#scientistTwo
+{
+    left: -10.7%;
+    top: -61vh;
+}
+
+#scientistThree
+{
+    left: 10.4%;
+    top: -61vh;
+}
+
+#imageDescriptionThree
+{
+    position: absolute;
+    top: -40vh;
+    left: 10.4%;
+}
+
+#scientistFour
+{
+    top: -62vh;
+    left: 30.9%;
+    width: 31vw;
+    position: absolute;
+    height: auto;
+    display: block;
+    padding: 10px;
+}
+
+.smallScientistImages
+{
+    width: 15.3vw;
+    height: auto;
+    display: block;
+    padding: 11px;
+}
+
+#scientistFive
+{
+    position: absolute;
+    left: 31%;
+    top: -19.5vh;
+}
+
+#scientistSix
+{
+    position: absolute;
+    left: 52%;
+    top: -19.5vh;
+}
+
+#imageDescriptionFour
+{
+    position: absolute;
+    top: -1vh;
+    left: 52.5%;
+}
+
+.scientistQuote
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 32%;
+    text-align: left;
+    position: absolute;
+    top: -19vh;
+    left: -8vw;
+    padding: 0;
+    margin: 0;
+}
+
+#scientistQuoteAuthor
+{
+    position: absolute;
+    left: -7.5vw;
+    top: -24vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+#cookTitle
+{
+    position: absolute;
+    left: 31.5%;
+    top: -135vh;
+}
+
+#cookText
+{
+    left: 31.5%;
+    top: -126vh;
+}
+
+.cookQuote
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 34%;
+    text-align: left;
+    position: absolute;
+    top: -124vh;
+    left: -8vw;
+    padding: 0;
+    margin: 0;
+}
+
+#cookQuoteAuthor
+{
+    position: absolute;
+    left: -7.5vw;
+    top: -125.5vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+#cookVideo
+{
+    width: 30vw;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: -107vh;
+    right: 70.5%;
+}
+
+#activistTitle
+{
+    position: absolute;
+    left: 31.5%;
+    top: -70vh;
+}
+
+#activistText
+{
+    left: 31.5%;
+    top: -60vh;
+}
+
+.activistQuote
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 34%;
+    text-align: left;
+    position: absolute;
+    top: -58vh;
+    left: -8vw;
+    padding: 0;
+    margin: 0;
+}
+
+#activistQuoteAuthor
+{
+    position: absolute;
+    left: -7.5vw;
+    top: -59vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+#activistVideo
+{
+    width: 30vw;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: -40vh;
+    right: 70.5%;
+}
+
+#humanTitle
+{
+    position: absolute;
+    left: 31.5%;
+    top: 0vh;
+}
+
+#humanText
+{
+    left: 31.5%;
+    top: 8vh;
+}
+
+.humanQuote
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 34%;
+    text-align: left;
+    position: absolute;
+    top: 9vh;
+    left: -8vw;
+    padding: 0;
+    margin: 0;
+}
+
+#humanImage
+{
+    width: 31vw;
+    height: auto;
+    display: block;
+    padding: 10px;
+    position: absolute;
+    top: 16vh;
+    right: 70%;
+}
+
+.endLine
+{
+    width: 64.5vw;
+    height: 1vh;
+    position: absolute;
+    top: -89.5vh;
+    left: -9.5vw;
+    border-bottom: 5px solid black;
+}
+
+#MyanmarVideo
+{
+    width: 30vw;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: -80vh;
+    left: -8vw;
 }
