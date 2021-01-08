@@ -87,15 +87,15 @@
 
 #snakeOne
 {
-    left: 4.5vw;
-    top: 37vh;
+    left: 17.5vw;
+    top: 59vh;
 }
 
 #snakeTwo
 {
     position: absolute;
-    left: 20.3vw;
-    top: 85vh;
+    left: 31.3vw;
+    top: 114vh;
 }
 
 .snakeContainer
@@ -108,8 +108,8 @@
 
 #snakeContainerOne
 {
-    top: -8vh;
-    left: -2.3vw;
+    top: 56vh;
+    left: 16.7vw
 }
 
 #snakeContainerTwo
