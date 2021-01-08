@@ -35,6 +35,7 @@ var dhakaSubchapter = document.querySelector('#dhakaFocus');
 var chennaiSubchapter = document.querySelector('#chennaiFocus');
 
 var hilsaSmallTabHeading = document.querySelector('#HilsaFish');
+var snakesSmallTabHeading = document.querySelector('#Snakes');
 
 var AccordianOne = document.getElementById('sectionOne');
 var AccordianTwo = document.getElementById('sectionTwo');
@@ -193,23 +194,51 @@ monsoonalMultiplicitiesTitle.addEventListener('click', function()
   leftHandSideMM = false;
   checkLeftHandSideMM(); 
   $('.hilsaContainer').fadeOut(1000);
+  $('.snakesContainer').fadeOut(1000);
   $('.MMContainer').fadeIn(2000);
+  hilsaSmallTabHeading.style.textDecoration = "none";
+  snakesSmallTabHeading.style.textDecoration = "none";
+
+  hilsaSubchapter.style.textDecoration = "none";
+  snakesSubchapter.style.textDecoration = "none";
 });
 
 hilsaSubchapter.addEventListener('click', function() 
 {
   hilsaSubchapter.style.textDecoration = "underline";
+  snakesSubchapter.style.textDecoration = "none";
   imageInCorner.style.display = "none";
   imageInCorner.src = '';
 
   hilsaSmallTabHeading.style.textDecoration = "underline";
+  snakesSmallTabHeading.style.textDecoration = "none";
 
   $('.hilsaContainer').fadeIn(4000);
+  $('.snakesContainer').fadeOut(3000);
 
   setTimeout(function()
   { 
     imageInCorner.style.display = "block";
-  }, 4000);
+  }, 5000);
+});
+
+snakesSubchapter.addEventListener('click', function() 
+{
+  hilsaSubchapter.style.textDecoration = "none";
+  snakesSubchapter.style.textDecoration = "underline";
+  imageInCorner.style.display = "none";
+  imageInCorner.src = '';
+
+  hilsaSmallTabHeading.style.textDecoration = "none";
+  snakesSmallTabHeading.style.textDecoration = "underline";
+
+  $('.hilsaContainer').fadeOut(3000);
+  $('.snakesContainer').fadeIn(4000);
+
+  setTimeout(function()
+  { 
+    imageInCorner.style.display = "block";
+  }, 5000);
 });
 
  function checkActiveAccordian()
