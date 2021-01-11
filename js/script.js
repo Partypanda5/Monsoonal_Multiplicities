@@ -36,6 +36,7 @@ var chennaiSubchapter = document.querySelector('#chennaiFocus');
 
 var hilsaSmallTabHeading = document.querySelector('#HilsaFish');
 var snakesSmallTabHeading = document.querySelector('#Snakes');
+var saltSmallTabHeading = document.querySelector('#Salt');
 
 var AccordianOne = document.getElementById('sectionOne');
 var AccordianTwo = document.getElementById('sectionTwo');
@@ -207,6 +208,7 @@ hilsaSubchapter.addEventListener('click', function()
 {
   hilsaSubchapter.style.textDecoration = "underline";
   snakesSubchapter.style.textDecoration = "none";
+  saltSubchapter.style.textDecoration = "none";
   imageInCorner.style.display = "none";
   imageInCorner.src = '';
 
@@ -214,6 +216,7 @@ hilsaSubchapter.addEventListener('click', function()
   snakesSmallTabHeading.style.textDecoration = "none";
 
   $('.hilsaContainer').fadeIn(4000);
+  $('.saltContainer').fadeOut(3000);
   $('.snakesContainer').fadeOut(3000);
 
   setTimeout(function()
@@ -226,14 +229,38 @@ snakesSubchapter.addEventListener('click', function()
 {
   hilsaSubchapter.style.textDecoration = "none";
   snakesSubchapter.style.textDecoration = "underline";
+  saltSubchapter.style.textDecoration = "none";
   imageInCorner.style.display = "none";
   imageInCorner.src = '';
 
   hilsaSmallTabHeading.style.textDecoration = "none";
   snakesSmallTabHeading.style.textDecoration = "underline";
 
-  $('.hilsaContainer').fadeOut(3000);
-  $('.snakesContainer').fadeIn(4000);
+  $('.hilsaContainer').fadeOut(2000);
+  $('.snakesContainer').fadeIn(3000);
+  $('.saltContainer').fadeIn(2000);
+
+  setTimeout(function()
+  { 
+    imageInCorner.style.display = "block";
+  }, 5000);
+});
+
+saltSubchapter.addEventListener('click', function() 
+{
+  hilsaSubchapter.style.textDecoration = "none";
+  snakesSubchapter.style.textDecoration = "none";
+  saltSubchapter.style.textDecoration = "underline";
+  imageInCorner.style.display = "none";
+  imageInCorner.src = '';
+
+  hilsaSmallTabHeading.style.textDecoration = "none";
+  snakesSmallTabHeading.style.textDecoration = "none";
+  saltSmallTabHeading.style.textDecoration = "underline";
+
+  $('.hilsaContainer').fadeOut(2000);
+  $('.snakesContainer').fadeOut(2000);
+  $('.saltContainer').fadeIn(3000);
 
   setTimeout(function()
   { 
