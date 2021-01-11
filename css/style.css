@@ -35,6 +35,11 @@ body
     padding: 0;
 }
 
+video
+{
+    overflow: hidden;
+}
+
 .headings
 {
     position: absolute;

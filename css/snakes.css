@@ -121,11 +121,15 @@
 #snakeContainerThree
 {
     top: -153vh;
-    left: -15.5vw;
+    left: -7.7vw;
 }
 
 #snakeContainerFour
 {
+    width: 50%;
+    height: 100%;
+    display: block;
+    position: absolute;
     top: 9vh;
     left: 23vw;
 }
@@ -183,33 +187,33 @@
 #snakeThree
 {
     position: absolute;
-    top: -58vh;
-    left: 7.7vw;
+    top: -136vh;
+    left: 2.6vw;
 }
 
 #snakeFour
 {
-    top: -39vh;
-    left: -8vw;
+    top: 138vh;
+    left: 4.8vw;
 }
 
 #snakeContainerFive
 {
-    top: 8vh;
-    left: -8.4vw;
+    top: 95vh;
+    left: -0.5vw;
 }
 
 #snakeFive
 {
     position: absolute;
-    left: 23.5vw;
-    top: 8.5vh;
+    left: 18.2vw;
+    top: -83.5vh;
 }
 
 #snakeContainerSix
 {
-    top: 27vh;
-    left: 23.3vw;
+    top: -64vh;
+    left: 17.8vw;
 }
 
 #human-snakeTitle
@@ -219,9 +223,9 @@
     line-height: 37px;
     font-family: 'Roboto', sans-serif;
     position: absolute;
-    left: 31.5%;
+    left: 24.5%;
     text-align: left;
-    top: -32vh;
+    top: -126vh;
 }
 
 #human-snakeText
@@ -233,26 +237,26 @@
     font-weight: 400;
     line-height: 25px;
     font-family: 'Roboto', sans-serif;
-    left: 31.5%;
-    top: -24vh;
+    left: 24.5%;
+    top: -118vh;
 }
 
 #snakeContainerSeven
 {
-    top: -47vh;
-    left: -8.5vw;
+    top: 40vh;
+    left: -0.6vw;
 }
 
 #snakeSix
 {
     position: absolute;
-    top: 10vh;
-    left: 23vw;
+    top: -84vh;
+    left: 18vw;
 }
 
 #snakeSeven
 {
     position: absolute;
-    top: 30vh;
-    left: -2.5vw;
+    top: 117vh;
+    left: 5.3vw;
 }
