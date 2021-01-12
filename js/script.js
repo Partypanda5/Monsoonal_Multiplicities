@@ -196,6 +196,7 @@ monsoonalMultiplicitiesTitle.addEventListener('click', function()
   checkLeftHandSideMM(); 
   $('.hilsaContainer').fadeOut(1000);
   $('.snakesContainer').fadeOut(1000);
+  $('.saltContainer').fadeOut(1000);
   $('.MMContainer').fadeIn(2000);
   hilsaSmallTabHeading.style.textDecoration = "none";
   snakesSmallTabHeading.style.textDecoration = "none";
@@ -238,7 +239,7 @@ snakesSubchapter.addEventListener('click', function()
 
   $('.hilsaContainer').fadeOut(2000);
   $('.snakesContainer').fadeIn(3000);
-  $('.saltContainer').fadeIn(2000);
+  $('.saltContainer').fadeOut(2000);
 
   setTimeout(function()
   { 

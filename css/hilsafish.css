@@ -109,8 +109,8 @@
     z-index: -3;
     text-align: left;
     position: absolute;
-    left: 35%;
-    top: 4vh;
+    left: 31.5%;
+    top: 5vh;
     font-size: 20px;
     font-weight: 400;
     line-height: 25px;
@@ -121,8 +121,8 @@
     width: 30vw;
     height: auto;
     position: absolute;
-    top: 82vh;
-    right: 52.3%
+    top: 40vh;
+    right: 60%;
 }
 
 
@@ -132,11 +132,11 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 25px;
-    width: 17%;
+    width: 22%;
     text-align: left;
     position: absolute;
-    top: 29vh;
-    left: 39.5vw;
+    top: 7vh;
+    left: 0.5vw;
     padding: 0;
     margin: 0;
 }
@@ -150,16 +150,16 @@
     width: 22%;
     text-align: left;
     position: absolute;
-    top: 41vh;
-    left: -7.5vw;
+    top: -5vh;
+    left: 1.5vw;
     padding: 0;
     margin: 0;
 }
 #hilsaRightSideQuoteAuthor
 {
     position: absolute;
-    left: -7.5vw;
-    top: 38vh;
+    left: 2.5vw;
+    top: -6vh;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
@@ -167,8 +167,8 @@
 #hilsaLeftSideQuoteAuthor
 {
     position: absolute;
-    left: 39.5vw;
-    top: 44.5vh;
+    left: 0.5vw;
+    top: 17.5vh;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
@@ -178,8 +178,8 @@
     width: 46vw;
     height: auto;
     position: absolute;
-    left: -13.3vw;
-    top: -6vh;
+    left: -3vw;
+    top: -30vh;
 }
 
 #fishContainer
@@ -188,21 +188,13 @@
     height: 100%;
     display: block;
     position: absolute;
-    top: -73vh;
-    left: -8.5vw;
+    top: -105vh;
+    left: -2.5vw;
 }
 
 .fishermenImages
 {
-    width: 31vw;
-    height: auto;
-    display: block;
-    padding: 10px;
-}
-
-.fishermenImages2
-{
-    width: 31vw;
+    width: 25vw;
     height: auto;
     display: block;
     padding: 10px;
@@ -210,12 +202,12 @@
 
 .theFisherTitle
 {
-    top: -75.5vh;
+    top: -112.5vh;
 }
 
 .theFisherText
 {
-    top: -67vh !important;
+    top: -104vh !important;
     left: 31.5% !important;
 }
 
@@ -234,7 +226,7 @@
     height: 100%;
     display: block;
     position: absolute;
-    top: -28vh;
+    top: -67vh;
     left: 23vw;
 }
 
@@ -257,7 +249,7 @@
 
 .hilsaAndMoon
 {
-    top: -15vh;
+    top: -4vh;
     left: 31.4% !important;
 }
 
@@ -271,7 +263,15 @@
 
 #yellowShip
 {
-    top: -90vh;
+    top: -140vh;
+}
+
+.middleSmallImage
+{
+    width: 25vw;
+    height: auto;
+    display: block;
+    padding: 10px;
 }
 
 #leftSmallShipContainer
@@ -280,7 +280,7 @@
     height: 100%;
     display: block;
     position: absolute;
-    top: -32.2vh;
+    top: -84.2vh;
     left: -8.5vw;
 }
 
@@ -290,7 +290,7 @@
     height: 100%;
     display: block;
     position: absolute;
-    top: -32.3vh;
+    top: -84.3vh;
     left: 7.4vw;
 }
 
@@ -330,20 +330,20 @@
 
 #shipOne
 {
-    top: -78vh;
-    left: 39.3vw;
+    top: -125vh;
+    left: 40.7vw;
 }
 
 #shipTwo
 {
-    top: -57vh;
-    left: 39.3vw;
+    top: -100vh;
+    left: 40.7vw;
 }
 
 #imageDescriptionOne
 {
     left: 39.5vw;
-    top: -91vh;
+    top: -141.5vh;
 }
 
 #imageDescriptionTwo
@@ -355,20 +355,20 @@
 #imageDescriptionTwo
 {
     left: 39.5vw;
-    top: -7vh;
+    top: -60vh;
 }
 
 #scientistTitle
 {
     position: absolute;
     left: 31.5%;
-    top: -107vh;
+    top: -175vh;
 }
 
 #scientistText
 {
     left: 31.5%;
-    top: -98vh;
+    top: -165vh;
 }
 
 .initialText
@@ -385,32 +385,32 @@
 #scientistOne
 {
     position: absolute;
-    top: -104.5vh;
+    top: -172.5vh;
     left: -11.3%;
 }
 
 #scientistTwo
 {
     left: -10.7%;
-    top: -61vh;
+    top: -129vh;
 }
 
 #scientistThree
 {
     left: 10.4%;
-    top: -61vh;
+    top: -129vh;
 }
 
 #imageDescriptionThree
 {
     position: absolute;
-    top: -40vh;
+    top: -108vh;
     left: 10.4%;
 }
 
 #scientistFour
 {
-    top: -62vh;
+    top: -130vh;
     left: 30.9%;
     width: 31vw;
     position: absolute;
@@ -431,20 +431,20 @@
 {
     position: absolute;
     left: 31%;
-    top: -19.5vh;
+    top: -87.5vh;
 }
 
 #scientistSix
 {
     position: absolute;
     left: 52%;
-    top: -19.5vh;
+    top: -87.5vh;
 }
 
 #imageDescriptionFour
 {
     position: absolute;
-    top: -1vh;
+    top: -69vh;
     left: 52.5%;
 }
 
@@ -457,7 +457,7 @@
     width: 32%;
     text-align: left;
     position: absolute;
-    top: -19vh;
+    top: -87vh;
     left: -8vw;
     padding: 0;
     margin: 0;
@@ -467,7 +467,7 @@
 {
     position: absolute;
     left: -7.5vw;
-    top: -24vh;
+    top: -91vh;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
@@ -476,13 +476,13 @@
 {
     position: absolute;
     left: 31.5%;
-    top: -135vh;
+    top: -210vh;
 }
 
 #cookText
 {
     left: 31.5%;
-    top: -126vh;
+    top: -200vh;
 }
 
 .cookQuote
@@ -494,7 +494,7 @@
     width: 34%;
     text-align: left;
     position: absolute;
-    top: -124vh;
+    top: -198vh;
     left: -8vw;
     padding: 0;
     margin: 0;
@@ -504,7 +504,7 @@
 {
     position: absolute;
     left: -7.5vw;
-    top: -125.5vh;
+    top: -199.5vh;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
@@ -515,7 +515,7 @@
     height: auto;
     display: block;
     position: absolute;
-    top: -107vh;
+    top: -182vh;
     right: 70.5%;
 }
 
@@ -523,13 +523,13 @@
 {
     position: absolute;
     left: 31.5%;
-    top: -70vh;
+    top: -146vh;
 }
 
 #activistText
 {
     left: 31.5%;
-    top: -60vh;
+    top: -136vh;
 }
 
 .activistQuote
@@ -541,7 +541,7 @@
     width: 34%;
     text-align: left;
     position: absolute;
-    top: -58vh;
+    top: -134vh;
     left: -8vw;
     padding: 0;
     margin: 0;
@@ -551,7 +551,7 @@
 {
     position: absolute;
     left: -7.5vw;
-    top: -59vh;
+    top: -135vh;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
@@ -562,7 +562,7 @@
     height: auto;
     display: block;
     position: absolute;
-    top: -40vh;
+    top: -117vh;
     right: 70.5%;
 }
 
@@ -570,13 +570,12 @@
 {
     position: absolute;
     left: 31.5%;
-    top: 0vh;
+    top: -80vh;
 }
 
-#humanText
-{
+#humanText {
     left: 31.5%;
-    top: 8vh;
+    top: -70vh;
 }
 
 .humanQuote
@@ -588,7 +587,7 @@
     width: 34%;
     text-align: left;
     position: absolute;
-    top: 9vh;
+    top: -67vh;
     left: -8vw;
     padding: 0;
     margin: 0;
@@ -601,16 +600,16 @@
     display: block;
     padding: 10px;
     position: absolute;
-    top: 16vh;
+    top: -60vh;
     right: 70%;
 }
 
-.endLine
+.endLineFish
 {
     width: 64.5vw;
     height: 1vh;
     position: absolute;
-    top: -50vh;
+    top: -170vh;
     left: -9.5vw;
     border-bottom: 1px solid black;
 }
@@ -621,6 +620,6 @@
     height: auto;
     display: block;
     position: absolute;
-    top: -80vh;
+    top: -163vh;
     left: -8vw;
 }
