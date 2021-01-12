@@ -109,7 +109,7 @@
     z-index: -3;
     text-align: left;
     position: absolute;
-    left: 31.5%;
+    left: 35.2%;
     top: 5vh;
     font-size: 20px;
     font-weight: 400;
@@ -121,8 +121,8 @@
     width: 30vw;
     height: auto;
     position: absolute;
-    top: 40vh;
-    right: 60%;
+    top: 60vh;
+    right: 52.5%;
 }
 
 
@@ -178,8 +178,8 @@
     width: 46vw;
     height: auto;
     position: absolute;
-    left: -3vw;
-    top: -30vh;
+    left: 14vw;
+    top: 35vh;
 }
 
 #fishContainer
@@ -249,7 +249,7 @@
 
 .hilsaAndMoon
 {
-    top: -4vh;
+    top: -14vh;
     left: 31.4% !important;
 }
 
@@ -330,14 +330,14 @@
 
 #shipOne
 {
-    top: -125vh;
-    left: 40.7vw;
+    top: -210vh;
+    left: 31.7vw;
 }
 
 #shipTwo
 {
-    top: -100vh;
-    left: 40.7vw;
+    top: -190vh;
+    left: 31.7vw;
 }
 
 #imageDescriptionOne
