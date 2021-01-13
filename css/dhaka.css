@@ -2,7 +2,7 @@
 {
     max-width: 100vw;
     flex: 100%;
-    display: none;
+    display: block;
 }
 
 .title
@@ -145,6 +145,46 @@
     width: 27%;
 }
 
+#garmentSubTitle
+{
+    position: absolute;
+    top: 325vh;
+    left: -10.5%;
+    text-align: left;
+}
+
+#garmentText
+{
+    position: absolute;
+    top: 340vh;
+    left: -7.9vw;
+    width: 33%;
+}
+
+#AmphibiousSubTitle
+{
+    position: absolute;
+    top: 350vh;
+    left: -10.5%;
+    text-align: left;
+}
+
+#AmphibiousText
+{
+    position: absolute;
+    top: 362vh;
+    left: -10.5%;
+    width: 36%;
+}
+
+#AmphibiousText2
+{
+    position: absolute;
+    top: 362vh;
+    left: 24vw;
+    width: 38%;
+}
+
 .dhakaImageContainer
 {
     width: 50%;
@@ -278,6 +318,30 @@
     z-index: 5
 }
 
+#imageDescriptionDhakaThirteen
+{
+    position: absolute;
+    top: 399vh;
+    left: -10.5%;
+    z-index: 5;
+}
+
+#imageDescriptionDhakaFourteen
+{
+    position: absolute;
+    top: 420vh;
+    left: -10.5%;
+    z-index: 5;
+}
+
+#imageDescriptionDhakaFifteen
+{
+    position: absolute;
+    top: 470vh;
+    left: -10.5%;
+    z-index: 5;
+}
+
 #dhakaContainerOne
 {
     top: 104vh;
@@ -300,6 +364,30 @@
 {
     top: 200vh;
     left: 23.1vw;
+}
+
+#dhakaContainerFive
+{
+    top: 377vh;
+    left: -2.5vw;
+}
+
+#dhakaContainerSix
+{
+    top: 326vh;
+    left: 23.1vw;
+}
+
+#dhakaContainerSeven
+{
+    top: 400vh;
+    left: -8.4vw;
+}
+
+#dhakaContainerEight
+{
+    top: 400vh;
+    left: 23.2vw;
 }
 
 #dhakaOne
@@ -447,6 +535,22 @@
     z-index: -5;
 }
 
+#dhakaTwenty
+{
+    position: absolute;
+    top: 175vh;
+    left: -10.9%;
+    width: 15.1vw;
+}
+
+#dhakaTwentyOne
+{
+    position: absolute;
+    top: 421vh;
+    left: 10.6%;
+    width: 45.5vw;
+}
+
 .horizontalContainer
 {
     display: flex;
@@ -462,6 +566,21 @@
 #gridImage
 {
     width: 14.5vw;
+    margin-left: 25px;
+    height: auto;
+}
+
+#gridImageSmaller
+{
+    width: 13.5vw;
+    margin-left: 30px;
+    margin-right: 5px;
+    height: auto;
+}
+
+#gridImageLarger
+{
+    width: 31vw;
     margin-left: 25px;
     height: auto;
 }
@@ -506,4 +625,61 @@
 {
     top: 455vh;
     left: 4.8vw;
+}
+
+#gridEight
+{
+    top: 500vh;
+    left: -10.5vw;
+}
+
+#gridNine
+{
+    top: 400vh;
+    left: 6.2vw;
+}
+
+#gridTen
+{
+    top: 470vh;
+    left: 6.2vw;
+}
+
+#gridEleven
+{
+    top: 490vh;
+    left: 6.2vw;
+}
+
+.endLineDhaka
+{
+    width: 64.5vw;
+    height: 1vh;
+    position: absolute;
+    top: 375vh;
+    left: -9.5vw;
+    border-bottom: 1px solid black;
+}
+
+.dhakaReferences
+{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    width: 33%;
+    text-align: left;
+}
+
+#oneRefDhaka
+{
+    top: 377vh;
+    left: 8vw;
+}
+
+#twoRefDhaka
+{
+    top: 385vh;
+    left: 8vw;
 }
