@@ -2,7 +2,7 @@
 {
     max-width: 100vw;
     flex: 100%;
-    display: block;
+    display: none;
 }
 
 .title
@@ -400,8 +400,8 @@
 #dhakaTwo
 {
     position: absolute;
-    top: 75%;
-    left: 20%;
+    top: 85%;
+    left: 25.1%;
 }
 
 #dhakaThree
@@ -414,15 +414,15 @@
 #dhakaFour
 {
     position: absolute;
-    top: 110%;
-    left: 38.6%;
+    top: 80%;
+    left: 33.6%;
 }
 
 #dhakaFive
 {
     position: absolute;
-    top: 135%;
-    left: 10.1%;
+    top: 107%;
+    left: 4.8%;
     z-index: 5;
 }
 
@@ -450,8 +450,8 @@
 #dhakaNine
 {
     position: absolute;
-    top: 60vh;
-    left: 29.1vw
+    top: 300vh;
+    left: 52.1vw;
 }
 
 #dhakaTen
@@ -464,8 +464,8 @@
 #dhakaEleven
 {
     position: absolute;
-    top: 78vh;
-    left: 31.4%;
+    top: 445vh;
+    left: 63%;
 }
 
 #dhakaTwelve
@@ -488,7 +488,7 @@
 #dhakaFourteen
 {
     position: absolute;
-    top: 185vh;
+    top: 270vh;
     left: -9.5vw;
 }
 
@@ -505,14 +505,14 @@
 #dhakaSixteen
 {
     position: absolute;
-    top: 232vh;
-    left: 31.1%;
+    top: 830vh;
+    left: 55.5%;
 }
 
 #dhakaSeventeen
 {
     position: absolute;
-    top: 260vh;
+    top: 165vh;
     left: 31.1%;
 }
 
