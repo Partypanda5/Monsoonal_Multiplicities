@@ -29,9 +29,9 @@
     position: absolute;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 16px;
-    width: 14%;
+    width: 17%;
     text-align: left;
 }
 
@@ -54,16 +54,16 @@
 #terraTitle
 {
     position: absolute;
-    top: 103vh;
-    left: -10.5%;
+    top: 105vh;
+    left: -7%;
 }
 
 #terraText
 {
     position: absolute;
-    top: 112vh;
-    left: -7.6vw;
-    width: 30%;;
+    top: 113vh;
+    left: -5.2vw;
+    width: 30%;
 }
 
 #charTitle
@@ -344,38 +344,38 @@
 
 #dhakaContainerOne
 {
-    top: 104vh;
-    left: 23.2vw;
+    top: 175vh;
+    left: 36.2vw;
 }
 
 #dhakaContainerTwo
 {
-    top: 95vh;
-    left: -2.5vw;  
+    top: 60vh;
+    left: -5vw;
 }
 
 #dhakaContainerThree
 {
-    top: 64vh;
-    left: 23.2vw;
+    top: 150vh;
+    left: 31vw;
 }
 
 #dhakaContainerFour
 {
-    top: 200vh;
-    left: 23.1vw;
+    top: -60vh;
+    left: 16.1vw;
 }
 
 #dhakaContainerFive
 {
-    top: 377vh;
-    left: -2.5vw;
+    top: 770vh;
+    left: 5.5vw;
 }
 
 #dhakaContainerSix
 {
-    top: 326vh;
-    left: 23.1vw;
+    top: -40vh;
+    left: 15.1vw;
 }
 
 #dhakaContainerSeven
@@ -457,8 +457,8 @@
 #dhakaTen
 {
     position: absolute;
-    top: 42vh;
-    left: 31%;
+    top: 0vh;
+    left: 27.5%;
 }
 
 #dhakaEleven
@@ -472,14 +472,14 @@
 {
     position: absolute;
     top: 90vh;
-    left: 12%;
+    left: 10%;
 }
 
 #dhakaThirteen
 {
     position: absolute;
     top: 90vh;
-    left: 20.1%;
+    left: 18.1%;
     width: 40vw;
     height: auto;
     z-index: -5;
@@ -488,7 +488,7 @@
 #dhakaFourteen
 {
     position: absolute;
-    top: 270vh;
+    top: 205vh;
     left: -9.5vw;
 }
 
@@ -505,14 +505,14 @@
 #dhakaSixteen
 {
     position: absolute;
-    top: 830vh;
+    top: 827vh;
     left: 55.5%;
 }
 
 #dhakaSeventeen
 {
     position: absolute;
-    top: 165vh;
+    top: 168vh;
     left: 31.1%;
 }
 
@@ -682,4 +682,11 @@
 {
     top: 385vh;
     left: 8vw;
+}
+
+#gridtemplate
+{
+    position: relative;
+    top: 62vh;
+    left: 1.7vw;
 }
