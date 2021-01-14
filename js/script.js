@@ -386,3 +386,58 @@ section.on('click', checkInactiveAccordian);
 
 checkActiveAccordian();
 checkInactiveAccordian();
+
+var zoom = new dmuka.Zoom({
+  element: document.querySelector("#dhakaTwelve"),
+      // Transform scale increment
+      increment: 0.3,
+
+      // Transform min scale
+      minZoom: 1,
+
+      // Transform max scale
+      maxZoom: 5,
+
+      // Animate enable
+      transitionEnable: true,
+
+      // Element append to new parent element
+      parentEnable: true,
+
+      // If added parent then classes will add to parent
+      parentClasses: "dhakaMapOne",
+
+      // If added parent then overflow css will add to parent
+      parentOverflow: "hidden",
+
+      // If added parent then padding css will add to parent
+      parentPadding: 0
+});
+
+var dhakaMapOne = document.querySelector('.dhakaMapOne');
+
+function preventDefault(e) {
+  e.preventDefault();
+}
+
+var supportsPassive = false;
+try {
+  window.addEventListener("test", null, Object.defineProperty({}, 'passive', {
+    get: function () { supportsPassive = true; } 
+  }));
+} catch(e) {}
+
+var wheelOpt = supportsPassive ? { passive: false } : false;
+var wheelEvent = 'onwheel' in document.createElement('div') ? 'wheel' : 'mousewheel';
+
+dhakaMapOne.addEventListener("mouseenter", () => 
+{
+  console.log('in');
+  primaryPanelContainer.addEventListener(wheelEvent, preventDefault, wheelOpt);
+});
+
+dhakaMapOne.addEventListener("mouseleave", () => 
+{
+  console.log('out');
+  primaryPanelContainer.removeEventListener(wheelEvent, preventDefault, wheelOpt); ;
+});

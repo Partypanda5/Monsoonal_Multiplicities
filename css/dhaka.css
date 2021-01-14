@@ -474,7 +474,10 @@
     top: 90vh;
     left: 10%;
 }
-
+.dhakaMapOne:hover
+{
+    cursor: zoom-in;
+}
 #dhakaThirteen
 {
     position: absolute;
@@ -689,4 +692,12 @@
     position: relative;
     top: 62vh;
     left: 1.7vw;
+}
+
+.dhakaMapOne
+{
+    position: absolute;
+    top: 90vh;
+    left: 10%;
+    z-index: 10;
 }
