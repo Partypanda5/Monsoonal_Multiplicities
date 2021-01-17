@@ -699,7 +699,17 @@
     z-index: 10;
 }
 
-.dhakaMapOne:hover
+figure.containerZoom
 {
-    cursor: pointer;
+    position: absolute !important;
+    top: 90vh !important;
+    left: 10% !important;
+    width: 46vw !important;
+    height: auto !important;
+    cursor: default !important;
+}
+
+figure.containerZoom:hover
+{
+    cursor: zoom-in !important;
 }
