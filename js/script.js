@@ -387,12 +387,14 @@ section.on('click', checkInactiveAccordian);
 checkActiveAccordian();
 checkInactiveAccordian();
 
-$('#dhakaTwelve').imageZoom({zoom : 200});
+$('#dhakaTwelve').imageZoom({zoom : 250});
+$('#dhakaFourteen').imageZoom({zoom : 250});
+$('#dhakaEighteen').imageZoom({zoom : 250});
 
 var zoomin = false;
 var dhakaMapOne = document.querySelector('.containerZoom');
 
-$( ".containerZoom" ).click(function() 
+$(".containerZoom" ).click(function() 
 {
   if (zoomin == false)
   {
@@ -401,7 +403,7 @@ $( ".containerZoom" ).click(function()
       setTimeout(function(){ zoomin = true; }, 200);
   }
 
-  else if (zoomin == true)
+ if (zoomin == true)
   {
     document.querySelector(".containerZoom").style.setProperty("cursor", "zoom-out", "important");
     setTimeout(function(){ zoomin = false; }, 200);

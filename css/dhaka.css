@@ -143,6 +143,8 @@
     top: 240vh;
     left: -7.9vw;
     width: 27%;
+    pointer-events: none;
+    z-index: 2
 }
 
 #garmentSubTitle
@@ -362,7 +364,7 @@
 
 #dhakaContainerFour
 {
-    top: -60vh;
+    top: -45vh;
     left: 16.1vw;
 }
 
@@ -514,6 +516,8 @@
     position: absolute;
     top: 168vh;
     left: 31.1%;
+    pointer-events: none;
+    z-index: 2
 }
 
 #dhakaEighteen
@@ -699,13 +703,35 @@
     z-index: 10;
 }
 
+.dhakaMapContainer
+{
+    width: 46vw;
+    height: auto;
+    position: absolute;
+    top: 90vh;
+    left: 10%;
+}
+
+.dhakaMapContainerTwo
+{
+    width: 64.5vw;
+    height: auto;
+    position: absolute;
+    top: 205vh;
+    left: -9.5vw;
+}
+
+.dhakaMapContainerThree
+{
+    position: absolute;
+    top: 275vh;
+    left: -10.9%;
+    width: 61.8vw;
+    height: auto;
+}
+
 figure.containerZoom
 {
-    position: absolute !important;
-    top: 90vh !important;
-    left: 10% !important;
-    width: 46vw !important;
-    height: auto !important;
     cursor: default !important;
 }
 
