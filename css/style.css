@@ -568,3 +568,5 @@ a
     bottom: -9999px;
     margin: auto;
 }
+
+video:focus { outline:none; }

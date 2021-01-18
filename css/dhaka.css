@@ -582,6 +582,13 @@
     height: auto;
 }
 
+#gridImageMedium
+{
+    width: 23vw;
+    margin-left: 25px;
+    height: auto;
+}
+
 #gridImageLarger
 {
     width: 31vw;

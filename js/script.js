@@ -38,6 +38,7 @@ var hilsaSmallTabHeading = document.querySelector('#HilsaFish');
 var snakesSmallTabHeading = document.querySelector('#Snakes');
 var saltSmallTabHeading = document.querySelector('#Salt');
 var dhakaSmallTabHeading = document.querySelector('#DhakaNav');
+var khalsSmallTabHeading = document.querySelector('#Khals');
 
 var AccordianOne = document.getElementById('sectionOne');
 var AccordianTwo = document.getElementById('sectionTwo');
@@ -198,13 +199,21 @@ monsoonalMultiplicitiesTitle.addEventListener('click', function()
   $('.hilsaContainer').fadeOut(1000);
   $('.snakesContainer').fadeOut(1000);
   $('.saltContainer').fadeOut(1000);
+  $('.khalsContainer').fadeOut(1000);
   $('.dhakaContainer').fadeOut(1000);
+
   $('.MMContainer').fadeIn(2000);
   hilsaSmallTabHeading.style.textDecoration = "none";
   snakesSmallTabHeading.style.textDecoration = "none";
+  khalsSmallTabHeading.style.textDecoration = "none";
+  saltSmallTabHeading.style.textDecoration = "none";
+  dhakaSmallTabHeading.style.textDecoration = "none";
 
   hilsaSubchapter.style.textDecoration = "none";
   snakesSubchapter.style.textDecoration = "none";
+  saltSubchapter.style.textDecoration = "none";
+  dhakaSubchapter.style.textDecoration = "none";
+  khalsSubchapter.style.textDecoration = "none";
 });
 
 hilsaSubchapter.addEventListener('click', function() 
@@ -212,14 +221,20 @@ hilsaSubchapter.addEventListener('click', function()
   hilsaSubchapter.style.textDecoration = "underline";
   snakesSubchapter.style.textDecoration = "none";
   saltSubchapter.style.textDecoration = "none";
+  dhakaSubchapter.style.textDecoration = "none";
+  khalsSubchapter.style.textDecoration = "none";
   imageInCorner.style.display = "none";
   imageInCorner.src = '';
 
   hilsaSmallTabHeading.style.textDecoration = "underline";
   snakesSmallTabHeading.style.textDecoration = "none";
+  khalsSmallTabHeading.style.textDecoration = "none";
+  saltSmallTabHeading.style.textDecoration = "none";
+  dhakaSmallTabHeading.style.textDecoration = "none";
 
   $('.hilsaContainer').fadeIn(4000);
   $('.saltContainer').fadeOut(3000);
+  $('.khalsContainer').fadeOut(2000);
   $('.snakesContainer').fadeOut(3000);
   $('.dhakaContainer').fadeOut(3000);
 
@@ -234,15 +249,22 @@ snakesSubchapter.addEventListener('click', function()
   hilsaSubchapter.style.textDecoration = "none";
   snakesSubchapter.style.textDecoration = "underline";
   saltSubchapter.style.textDecoration = "none";
+  dhakaSubchapter.style.textDecoration = "none";
+  khalsSubchapter.style.textDecoration = "none";
+
   imageInCorner.style.display = "none";
   imageInCorner.src = '';
 
   hilsaSmallTabHeading.style.textDecoration = "none";
   snakesSmallTabHeading.style.textDecoration = "underline";
+  khalsSmallTabHeading.style.textDecoration = "none";
+  saltSmallTabHeading.style.textDecoration = "none";
+  dhakaSmallTabHeading.style.textDecoration = "none";
 
   $('.hilsaContainer').fadeOut(2000);
   $('.snakesContainer').fadeIn(3000);
   $('.saltContainer').fadeOut(2000);
+  $('.khalsContainer').fadeOut(2000);
   $('.dhakaContainer').fadeOut(3000);
 
   setTimeout(function()
@@ -256,15 +278,21 @@ saltSubchapter.addEventListener('click', function()
   hilsaSubchapter.style.textDecoration = "none";
   snakesSubchapter.style.textDecoration = "none";
   saltSubchapter.style.textDecoration = "underline";
+  dhakaSubchapter.style.textDecoration = "none";
+  khalsSubchapter.style.textDecoration = "none";
+
   imageInCorner.style.display = "none";
   imageInCorner.src = '';
 
   hilsaSmallTabHeading.style.textDecoration = "none";
   snakesSmallTabHeading.style.textDecoration = "none";
   saltSmallTabHeading.style.textDecoration = "underline";
+  khalsSmallTabHeading.style.textDecoration = "none";
+  dhakaSmallTabHeading.style.textDecoration = "none";
 
   $('.hilsaContainer').fadeOut(2000);
   $('.snakesContainer').fadeOut(2000);
+  $('.khalsContainer').fadeOut(2000);
   $('.saltContainer').fadeIn(3000);
   $('.dhakaContainer').fadeOut(3000);
 
@@ -280,6 +308,7 @@ dhakaSubchapter.addEventListener('click', function()
   snakesSubchapter.style.textDecoration = "none";
   saltSubchapter.style.textDecoration = "none";
   dhakaSubchapter.style.textDecoration = "underline";
+  khalsSubchapter.style.textDecoration = "none";
 
   imageInCorner.style.display = "none";
   imageInCorner.src = '';
@@ -288,17 +317,50 @@ dhakaSubchapter.addEventListener('click', function()
   snakesSmallTabHeading.style.textDecoration = "none";
   saltSmallTabHeading.style.textDecoration = "none";
   dhakaSmallTabHeading.style.textDecoration = "underline";
+  khalsSmallTabHeading.style.textDecoration = "none";
 
   $('.hilsaContainer').fadeOut(2000);
   $('.snakesContainer').fadeOut(2000);
   $('.saltContainer').fadeOut(2000);
   $('.dhakaContainer').fadeIn(3000);
+  $('.khalsContainer').fadeOut(2000);
 
   setTimeout(function()
   { 
     imageInCorner.style.display = "block";
   }, 5000);
 });
+
+khalsSubchapter.addEventListener('click', function() 
+{
+  hilsaSubchapter.style.textDecoration = "none";
+  snakesSubchapter.style.textDecoration = "none";
+  saltSubchapter.style.textDecoration = "none";
+  dhakaSubchapter.style.textDecoration = "none";
+  khalsSubchapter.style.textDecoration = "underline";
+
+  imageInCorner.style.display = "none";
+  imageInCorner.src = '';
+
+  hilsaSmallTabHeading.style.textDecoration = "none";
+  snakesSmallTabHeading.style.textDecoration = "none";
+  saltSmallTabHeading.style.textDecoration = "none";
+  dhakaSmallTabHeading.style.textDecoration = "none";
+  khalsSmallTabHeading.style.textDecoration = "underline";
+
+  $('.hilsaContainer').fadeOut(2000);
+  $('.snakesContainer').fadeOut(2000);
+  $('.saltContainer').fadeOut(2000);
+  $('.dhakaContainer').fadeOut(2000);
+  $('.khalsContainer').fadeIn(3000);
+
+  setTimeout(function()
+  { 
+    imageInCorner.style.display = "block";
+  }, 5000);
+});
+
+
 
  function checkActiveAccordian()
 {
@@ -390,6 +452,7 @@ checkInactiveAccordian();
 $('#dhakaTwelve').imageZoom({zoom : 250});
 $('#dhakaFourteen').imageZoom({zoom : 250});
 $('#dhakaEighteen').imageZoom({zoom : 250});
+$('#khalsMapOne').imageZoom({zoom : 250});
 
 var zoomin = false;
 var dhakaMapOne = document.querySelector('.containerZoom');
