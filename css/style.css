@@ -621,17 +621,33 @@ video:focus { outline:none; }
 #glossarySection
 {
     margin-top: -200vh;
+    height: 50%;
     position: absolute;
     left: -25px;
 }
-
 
 #collaboratorsSection
 {
   height: 50%;
   width: auto;
   position: relative;
-  top: 1495vh;
+  top: 1500vh;
+}
+
+#acknowledgementSection
+{
+    height: 50%;
+    width: auto;
+    position: relative;
+    top: 1320vh;
+}
+
+#assemblagesSection
+{
+    height: 50%;
+    width: auto;
+    position: relative;
+    top: 1240vh;
 }
 
 .glossaryRow 
@@ -667,3 +683,38 @@ video:focus { outline:none; }
       left: -10.5%;
       text-align: left;
   }
+
+  .logos
+  {
+      width: 14.3vw;
+      height: auto;
+      position: relative;
+  }
+
+  #logoOne
+  {
+    width: 25vw;
+    margin-top: 5vh;
+  }
+
+  #logoTwo
+  {
+    margin-top: 5vh;
+  }
+
+  .endLineLanding
+  {
+    width: 64.5vw;
+    height: 1vh;
+    position: absolute;
+    top: 2450vh;
+    left: -33vw;
+    border-bottom: 1px solid black;
+}
+
+#oneRefLanding
+{
+    top: 2455vh;
+    left: 0vw;
+    width: 40%;
+}

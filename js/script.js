@@ -6,8 +6,10 @@ var aboutNav = document.querySelector('#aboutPanelNav');
 var eventsNav = document.querySelector('#EventsPanelNav');
 var residencyNav = document.querySelector('#ResidencyPanelNav');
 var landingPageRightContainer = document.querySelector('#RightTextContainer');
-var MonsoonalPanelNav = document.querySelector('#MonsoonalPanelNav');
+var MonsoonalPanelNav = document.querySelector('#GlossaryNav');
 var CollabPanelNav = document.querySelector('#CollabPanelNav');
+var acknowledgementsNav = document.querySelector('#AcknowledgementPanelNav');
+var MonsoonPanelNav = document.querySelector('#MonsoonPanelNav');
 
 var contentSection = document.getElementById('primaryPanel');
 var contentSectionTitle = document.getElementById('cityHeadings');
@@ -72,6 +74,8 @@ var eventsSection = document.querySelector('#events');
 var aboutSection = document.querySelector('#about');
 var glossarySection = document.querySelector('#glossarySection');
 var collaboratorsSection = document.querySelector('#collaboratorsSection');
+var acknowledgementSection = document.querySelector('#acknowledgementSection');
+var assemblagesSection = document.querySelector('#assemblagesSection');
 
 aboutNav.addEventListener('click', () => 
 {
@@ -81,6 +85,8 @@ aboutNav.addEventListener('click', () =>
   eventsNav.classList.remove("activeNavbarTitle");
   CollabPanelNav.classList.remove("activeNavbarTitle");
   MonsoonalPanelNav.classList.remove("activeNavbarTitle");
+  acknowledgementsNav.classList.remove("activeNavbarTitle");
+  MonsoonPanelNav.classList.remove("activeNavbarTitle");
 });
 
 eventsNav.addEventListener('click', () => 
@@ -91,6 +97,8 @@ eventsNav.addEventListener('click', () =>
   eventsNav.classList.add("activeNavbarTitle");
   MonsoonalPanelNav.classList.remove("activeNavbarTitle");
   CollabPanelNav.classList.remove("activeNavbarTitle");
+  acknowledgementsNav.classList.remove("activeNavbarTitle");
+  MonsoonPanelNav.classList.remove("activeNavbarTitle");
 });
 
 residencyNav.addEventListener('click', () => 
@@ -101,9 +109,11 @@ residencyNav.addEventListener('click', () =>
   eventsNav.classList.remove("activeNavbarTitle");
   MonsoonalPanelNav.classList.remove("activeNavbarTitle");
   CollabPanelNav.classList.remove("activeNavbarTitle");
+  acknowledgementsNav.classList.remove("activeNavbarTitle");
+  MonsoonPanelNav.classList.remove("activeNavbarTitle");
 });
 
-glossarySection.addEventListener('click', () => 
+MonsoonalPanelNav.addEventListener('click', () => 
 {
   glossarySection.scrollIntoView();
   aboutNav.classList.remove("activeNavbarTitle");
@@ -111,9 +121,11 @@ glossarySection.addEventListener('click', () =>
   eventsNav.classList.remove("activeNavbarTitle");
   MonsoonalPanelNav.classList.add("activeNavbarTitle");
   CollabPanelNav.classList.remove("activeNavbarTitle");
+  acknowledgementsNav.classList.remove("activeNavbarTitle");
+  MonsoonPanelNav.classList.remove("activeNavbarTitle");
 });
 
-collaboratorsSection.addEventListener('click', () => 
+CollabPanelNav.addEventListener('click', () => 
 {
   collaboratorsSection.scrollIntoView();
   aboutNav.classList.remove("activeNavbarTitle");
@@ -121,8 +133,34 @@ collaboratorsSection.addEventListener('click', () =>
   eventsNav.classList.remove("activeNavbarTitle");
   MonsoonalPanelNav.classList.remove("activeNavbarTitle");
   CollabPanelNav.classList.add("activeNavbarTitle");
+  acknowledgementsNav.classList.remove("activeNavbarTitle");
+  MonsoonPanelNav.classList.remove("activeNavbarTitle");
 });
 
+acknowledgementsNav.addEventListener('click', () => 
+{
+  acknowledgementSection.scrollIntoView();
+  aboutNav.classList.remove("activeNavbarTitle");
+  residencyNav.classList.remove("activeNavbarTitle");
+  eventsNav.classList.remove("activeNavbarTitle");
+  MonsoonalPanelNav.classList.remove("activeNavbarTitle");
+  CollabPanelNav.classList.remove("activeNavbarTitle");
+  acknowledgementsNav.classList.add("activeNavbarTitle");
+  MonsoonPanelNav.classList.remove("activeNavbarTitle");
+});
+
+MonsoonPanelNav.addEventListener('click', () => 
+{
+  console.log('clicked assemblages');
+  assemblagesSection.scrollIntoView();
+  aboutNav.classList.remove("activeNavbarTitle");
+  residencyNav.classList.remove("activeNavbarTitle");
+  eventsNav.classList.remove("activeNavbarTitle");
+  MonsoonalPanelNav.classList.remove("activeNavbarTitle");
+  CollabPanelNav.classList.remove("activeNavbarTitle");
+  acknowledgementsNav.classList.remove("activeNavbarTitle");
+  MonsoonPanelNav.classList.add("activeNavbarTitle");
+});
 
 var section = $('li');
 
