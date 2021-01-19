@@ -62,6 +62,7 @@
 .navbarTitles:hover
 {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .activeNavbarTitle
@@ -71,11 +72,13 @@
 
 #RightTextContainer
 {
-    width: 28%;
+    width: 30.5%;
+    height: 5500px;
     position: absolute;
-    top: 24.5%;
+    top: 27.5%;
     left: 36%;
     z-index: -3;
+    /* overflow-y: scroll; */
 }
 
 .rightSideText

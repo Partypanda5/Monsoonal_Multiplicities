@@ -570,3 +570,100 @@ a
 }
 
 video:focus { outline:none; }
+
+.eventBlock
+{
+    margin-top: 5vh;
+}
+
+.rightSideSmallerText
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.rightSideEvenSmallerText
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.MMHeading
+{
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+}
+
+#about
+{
+    height: 25%;
+    width: auto;
+}
+
+#events
+{
+    height: 50%;
+    width: auto;
+}
+
+#residency
+{
+    margin-top: 10vh;
+    height: 50%;
+    width: auto;
+}
+
+#glossarySection
+{
+    margin-top: -200vh;
+    position: absolute;
+    left: -25px;
+}
+
+
+#collaboratorsSection
+{
+  height: 50%;
+  width: auto;
+  position: relative;
+  top: 1495vh;
+}
+
+.glossaryRow 
+{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.glossaryColumn 
+{
+    flex: 50%;
+    padding: 10px;
+    height: 580px;
+    margin-left: 30px;
+  }
+
+  .centerImage
+  {
+    position: relative;
+    left: 0vw;
+    top: 3vh;
+    width: 12.5vw;
+    height: auto;
+    padding: 5px;
+  }
+
+  .CollabTitle
+  {
+      font-size: 34px;
+      font-weight: 400;
+      line-height: 37px;
+      font-family: 'Roboto', sans-serif;
+      left: -10.5%;
+      text-align: left;
+  }

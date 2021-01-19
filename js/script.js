@@ -2,6 +2,13 @@ var accordianContainer = document.querySelector('#accordianSection');
 var monsoonalMultiplicitiesTitle = document.querySelector('#multipleMonsoons');
 var leftHandSideMM = false;
 
+var aboutNav = document.querySelector('#aboutPanelNav');
+var eventsNav = document.querySelector('#EventsPanelNav');
+var residencyNav = document.querySelector('#ResidencyPanelNav');
+var landingPageRightContainer = document.querySelector('#RightTextContainer');
+var MonsoonalPanelNav = document.querySelector('#MonsoonalPanelNav');
+var CollabPanelNav = document.querySelector('#CollabPanelNav');
+
 var contentSection = document.getElementById('primaryPanel');
 var contentSectionTitle = document.getElementById('cityHeadings');
 var primaryPanelContainer = document.querySelector('.Layout__wrapper-container');
@@ -59,6 +66,63 @@ var focusedSubtitlesFive = document.getElementById('focusedSubtitlesFive');
 var groupedFocusedSubtitles = document.querySelectorAll('.focusedSingleSubtitle');
 
 var videoContent = document.getElementById('videoContent');
+
+var residencySection = document.querySelector('#residency');
+var eventsSection = document.querySelector('#events');
+var aboutSection = document.querySelector('#about');
+var glossarySection = document.querySelector('#glossarySection');
+var collaboratorsSection = document.querySelector('#collaboratorsSection');
+
+aboutNav.addEventListener('click', () => 
+{
+  aboutSection.scrollIntoView();  
+  residencyNav.classList.remove("activeNavbarTitle");
+  aboutNav.classList.add("activeNavbarTitle");
+  eventsNav.classList.remove("activeNavbarTitle");
+  CollabPanelNav.classList.remove("activeNavbarTitle");
+  MonsoonalPanelNav.classList.remove("activeNavbarTitle");
+});
+
+eventsNav.addEventListener('click', () => 
+{
+  eventsSection.scrollIntoView(); 
+  residencyNav.classList.remove("activeNavbarTitle");
+  aboutNav.classList.remove("activeNavbarTitle");
+  eventsNav.classList.add("activeNavbarTitle");
+  MonsoonalPanelNav.classList.remove("activeNavbarTitle");
+  CollabPanelNav.classList.remove("activeNavbarTitle");
+});
+
+residencyNav.addEventListener('click', () => 
+{
+  residencySection.scrollIntoView();
+  aboutNav.classList.remove("activeNavbarTitle");
+  residencyNav.classList.add("activeNavbarTitle");
+  eventsNav.classList.remove("activeNavbarTitle");
+  MonsoonalPanelNav.classList.remove("activeNavbarTitle");
+  CollabPanelNav.classList.remove("activeNavbarTitle");
+});
+
+glossarySection.addEventListener('click', () => 
+{
+  glossarySection.scrollIntoView();
+  aboutNav.classList.remove("activeNavbarTitle");
+  residencyNav.classList.remove("activeNavbarTitle");
+  eventsNav.classList.remove("activeNavbarTitle");
+  MonsoonalPanelNav.classList.add("activeNavbarTitle");
+  CollabPanelNav.classList.remove("activeNavbarTitle");
+});
+
+collaboratorsSection.addEventListener('click', () => 
+{
+  collaboratorsSection.scrollIntoView();
+  aboutNav.classList.remove("activeNavbarTitle");
+  residencyNav.classList.remove("activeNavbarTitle");
+  eventsNav.classList.remove("activeNavbarTitle");
+  MonsoonalPanelNav.classList.remove("activeNavbarTitle");
+  CollabPanelNav.classList.add("activeNavbarTitle");
+});
+
 
 var section = $('li');
 
