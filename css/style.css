@@ -35,6 +35,11 @@ body
     padding: 0;
 }
 
+.nomargin
+{
+    margin: 0;;
+}
+
 video
 {
     overflow: hidden;
@@ -75,32 +80,32 @@ video
     font-weight: 400;
     opacity: 0;
 }
-#events
+#eventsNav
 {
     top: 25.8vh;
     left: 0.2vw;
 }
-#residency
+#residencyNav
 {
     top: 28vh;
     left: 0.2vw;
 }
-#glossary
+#glossaryNav
 {
     top: 32.5vh;
     left: 0.2vw;
 }
-#collaborators
+#collaboratorsNav
 {
     top: 36vh;
     left: 0.2vw;
 }
-#acknowledgements
+#acknowledgementsNav
 {
     top: 42.5vh;
     left: 0.2vw;
 }
-#monsoonAssemblages
+#monsoonAssemblagesNav
 {
     top: 53.2vh;
     left: 0.2vw;
@@ -518,7 +523,7 @@ a
     height: 100%;
     display: flex;
     flex-direction: column;
-    overflow-y: auto;
+    overflow-y: scroll;
     overflow-x: hidden;
     position: relative;
 }
@@ -531,9 +536,10 @@ a
     align-content: space-between;
     position: relative;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: scroll;
     flex-grow: 1;
     z-index: 1;
+    /* height: 100%; */
 }
 
 .MMContainer{

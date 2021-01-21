@@ -3,6 +3,7 @@
     max-width: 100vw;
     flex: 100%;
     display: none;
+    z-index: 10;
 }
 
 .TemplateContainer {
@@ -13,6 +14,7 @@
     padding: 0px 3vw;
     height: 150vh;
     position: relative;
+    
 }
 
 .TemplateBlock {
