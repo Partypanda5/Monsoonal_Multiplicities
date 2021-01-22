@@ -584,14 +584,14 @@ sedimentSubchapter.addEventListener('click', function()
   airSmallTabHeading.style.textDecoration = "none";
   sedimentSmallTabHeading.style.textDecoration = "underline";
 
-  $('.hilsaContainer').fadeOut(2000);
-  $('.snakesContainer').fadeOut(2000);
-  $('.saltContainer').fadeOut(2000);
-  $('.dhakaContainer').fadeOut(2000);
-  $('.khalsContainer').fadeOut(2000);
-  $('.timeContainer').fadeOut(2000);
-  $('.airContainer').fadeOut(2000);
-  $('.sedimentContainer').fadeIn(3000);
+  $('.hilsaContainer').fadeOut(0);
+  $('.snakesContainer').fadeOut(0);
+  $('.saltContainer').fadeOut(0);
+  $('.dhakaContainer').fadeOut(0);
+  $('.khalsContainer').fadeOut(0);
+  $('.timeContainer').fadeOut(0);
+  $('.airContainer').fadeOut(0);
+  $('.sedimentContainer').fadeIn(0);
 
   setTimeout(function()
   { 
@@ -624,14 +624,14 @@ airSubchapter.addEventListener('click', function()
   sedimentSmallTabHeading.style.textDecoration = "none";
   airSmallTabHeading.style.textDecoration = "underline";
 
-  $('.hilsaContainer').fadeOut(2000);
-  $('.snakesContainer').fadeOut(2000);
-  $('.saltContainer').fadeOut(2000);
-  $('.dhakaContainer').fadeOut(2000);
-  $('.khalsContainer').fadeOut(2000);
-  $('.timeContainer').fadeOut(2000);
-  $('.sedimentContainer').fadeOut(2000);
-  $('.airContainer').fadeIn(3000);
+  $('.hilsaContainer').fadeOut(0);
+  $('.snakesContainer').fadeOut(0);
+  $('.saltContainer').fadeOut(0);
+  $('.dhakaContainer').fadeOut(0);
+  $('.khalsContainer').fadeOut(0);
+  $('.timeContainer').fadeOut(0);
+  $('.sedimentContainer').fadeOut(0);
+  $('.airContainer').fadeIn(0);
 
   setTimeout(function()
   { 
