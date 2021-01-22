@@ -381,17 +381,6 @@
     border-bottom: 1px solid black;
 }
 
-.references
-{
-    position: absolute;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
-    width: 14%;
-    text-align: left;
-}
-
 #oneRef
 {
     top: -255vh;

@@ -6,39 +6,6 @@
     z-index: 10;
 }
 
-.TemplateContainer {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    font-size: 42pt;
-    padding: 0px 3vw;
-    height: 150vh;
-    position: relative;
-    
-}
-
-.TemplateBlock {
-    line-height: 25vh;
-    text-align: right;
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-
-.templateQuote
-{
-    position: absolute;
-    top: 17.5%;
-    left: 35.5%;
-    width: 20%;
-    text-align: left;
-    position: absolute;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 25px;
-    font-family: 'Roboto', sans-serif;
-}
-
 #khalsSubFour
 {
     top: -60vh;
@@ -86,90 +53,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
-.TemplateImageDescription
-{
-    position: absolute;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 13px;
-    line-height: 16px;
-    width: 17%;
-    text-align: left;
-}
-
-.TemplateImageContainer
-{
-    width: 50%;
-    display: inline-grid;
-    position: absolute;
-}
-
-#gridImage
-{
-    width: 14.5vw;
-    margin-left: 25px;
-    height: auto;
-}
-
-#gridImageSmaller
-{
-    width: 13.5vw;
-    margin-left: 30px;
-    margin-right: 5px;
-    height: auto;
-}
-
-#gridImageMiddle
-{
-    width: 25vw;
-    margin-left: 30px;
-    margin-right: 5px;
-    margin-top: 2vh;
-    height: auto;
-    pointer-events: none;
-}
-
-#gridImageLarger
-{
-    width: 31vw;
-    margin-left: 25px;
-} 
-
-.small
-{
-    width: 14.5vw;
-    height: auto;
-    padding: 5px;
-}
-
-.middle
-{
-    width: 25vw;
-    height: auto;
-    display: block;
-    padding: 10px;
-}
-
-.middleLarge
-{
-    width: 31vw;
-    height: auto;
-    display: block;
-    padding: 10px;
-}
-
-.large
-{
-    width: 46vw;
-    height: auto;
-}
-
-.extraLarge
-{
-    width: 64.5vw;
-    height: auto;
-}
 
 #khalsHorizontalGridOne
 {
