@@ -261,3 +261,13 @@
     top: 143vh;
     left: 5.3vw;
 }
+
+.endLineSnakes
+{
+    width: 64.5vw;
+    height: 1vh;
+    position: relative;
+    top: -60vh;
+    left: -9.5vw;
+    border-bottom: 1px solid black;
+}

@@ -19,8 +19,7 @@
 {
     position: absolute;
     left: 1.5vw;
-    top: 95%;
-    width: 29.7vw;
+    top: 93%;
 }
 
 #sedimentThree
@@ -34,7 +33,7 @@
 {
     position: absolute;
     left: 30vw;
-    top: 0%;
+    top: -10%;
 }
 
 #sedimentFive
@@ -47,8 +46,8 @@
 #sedimentSix
 {
     position: absolute;
-    left: 31.2%;
-    top: -11%;
+    left: 15.5%;
+    top: 10%;
 }
 
 #sedimentSeven
@@ -81,6 +80,43 @@
     top: 45%;
     z-index: -5;
 }
+
+#sedimentEleven
+{
+    position: absolute;
+    left: 40.5%;
+    top: 144%;
+}
+
+#sedimentTwelve
+{
+    position: absolute;
+    left: 10.1%;
+    top: -25%;
+}
+
+#sedimentThirteen
+{
+    position: absolute;
+    left: 32.2%;
+    top: -14%;
+}
+
+#sedimentFourteen
+{
+    position: absolute;
+    left: 32.2%;
+    top: -14%;
+}
+
+#sedimentFifteen
+{
+    position: absolute;
+    left: 1.2%;
+    top: 54.5%;
+    width: 36vw;
+}
+
 
 #sedimentCopy
 {
@@ -115,42 +151,42 @@
 
 #sedimentSubThree
 {
-    top: -50vh;
+    top: -35vh;
 }
 
 #sedimentSubFour
 {
-    top: -145vh;
+    top: -135vh;
 }
 
 #sedimentSubSix
 {
-    top: -250vh;
+    top: -200vh;
 }
 
 #sedimentSubFive
 {
-    top: -185vh;
+    top: -165vh;
 }
 
 #sedimentSubSeven
 {
-    top: -185vh;
+    top: -100vh;
 }
 
 #sedimentSubEight
 {
-    top: -250vh;
+    top: -190vh;
 }
 
 #sedimentSubNine
 {
-    top: -315vh;
+    top: -260vh;
 }
 
 #sedimentSubTen
 {
-    top: -315vh;
+    top: -265vh;
 }
 
 #sedimentGridOne
@@ -230,11 +266,18 @@
     left: 29.2vw;
 }
 
+#sedimentGridTwelve
+{
+    position: absolute;
+    top: 195vh;
+    left: 2.5vw;
+}
+
 #sedimentImageDescriptionOne
 {
     position: absolute;
     left: 33.5vw;
-    top: 90%;
+    top: 86%;
     width: 14%;
 }
 
@@ -249,8 +292,8 @@
 #sedimentImageDescriptionThree
 {
     position: absolute;
-    left: 49.5vw;
-    top: 65%;
+    left: 49vw;
+    top: 74%;
     width: 14%;
 }
 
@@ -292,6 +335,21 @@
     left: 18.5%;
     top: 87%;
     width: 14%;
+}
+
+#sedimentImageDescriptionNine
+{
+    position: absolute;
+    left: 12%;
+    top: 87%;
+}
+
+#sedimentImageDescriptionTen
+{
+    position: absolute;
+    left: 52.5%;
+    top: 143.5%;
+    width: 14vw;
 }
 
 .mediumVideos

@@ -556,47 +556,6 @@
     width: 45.5vw;
 }
 
-.horizontalContainer
-{
-    display: flex;
-    position: absolute;
-}
-
-.containerRow
-{
-    flex: 33.33%;
-    padding: 5px;
-}
-
-#gridImage
-{
-    width: 14.5vw;
-    margin-left: 25px;
-    height: auto;
-}
-
-#gridImageSmaller
-{
-    width: 13.5vw;
-    margin-left: 30px;
-    margin-right: 5px;
-    height: auto;
-}
-
-#gridImageMedium
-{
-    width: 23vw;
-    margin-left: 25px;
-    height: auto;
-}
-
-#gridImageLarger
-{
-    width: 31vw;
-    margin-left: 25px;
-    height: auto;
-}
-
 #gridOne
 {
     top: 135vh;
