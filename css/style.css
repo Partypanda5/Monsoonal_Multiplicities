@@ -919,6 +919,21 @@ video:focus { outline:none; }
     font-family: 'Roboto', sans-serif;
 }
 
+.copyTextLeft
+{
+    position: relative;
+    top: 17%;
+    left: 5%;
+    width: 30%;
+    text-align: left;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+    z-index: 6;
+}
+
 .horizontalContainer
 {
     display: flex;
@@ -935,6 +950,13 @@ video:focus { outline:none; }
 {
     width: 14.5vw;
     margin-left: 25px;
+    height: auto;
+}
+
+#gridImageSmallerMargin
+{
+    width: 14.5vw;
+    margin-left: 12px;
     height: auto;
 }
 
@@ -958,4 +980,17 @@ video:focus { outline:none; }
     width: 31vw;
     margin-left: 25px;
     height: auto;
+}
+
+.mainTitleRight 
+{
+    position: relative;
+    top: 13%;
+    left: 35.4%;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 37px;
+    text-align: left;
 }
