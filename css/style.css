@@ -137,6 +137,7 @@ video
 .cityTitle
 {
     transform: rotate(90deg);
+    -webkit-transform-origin: 50%  53%;
     white-space: nowrap;
     position: fixed;
     top: 13vh;
@@ -483,7 +484,7 @@ a
     top: 33vh;
   }
 
-  #dhakaVideo
+  #backgroundVideo
   {
     position: absolute;
     z-index: -10;

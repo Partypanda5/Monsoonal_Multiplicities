@@ -1,5 +1,6 @@
 var accordianContainer = document.querySelector('#accordianSection');
 var monsoonalMultiplicitiesTitle = document.querySelector('#multipleMonsoons');
+var backGroundvideo = document.querySelector('#backgroundVideo');
 var leftHandSideMM = false;
 
 var aboutNav = document.querySelector('#aboutPanelNav');
@@ -80,6 +81,11 @@ var glossarySection = document.querySelector('#glossarySection');
 var collaboratorsSection = document.querySelector('#collaboratorsSection');
 var acknowledgementSection = document.querySelector('#acknowledgementSection');
 var assemblagesSection = document.querySelector('#assemblagesSection');
+
+setTimeout(function()
+{ 
+  $('#backgroundVideo').fadeOut(2000);
+}, 20000);
 
 aboutNav.addEventListener('click', () => 
 {
@@ -332,6 +338,8 @@ monsoonalMultiplicitiesTitle.addEventListener('click', function()
   sedimentSubchapter.style.textDecoration = "none";
   airSubchapter.style.textDecoration = "none";
   pipesPotsSubchapter.style.textDecoration = 'none';
+
+  $('#backgroundVideo').fadeIn(3000);
 });
 
 hilsaSubchapter.addEventListener('click', function() 
@@ -358,6 +366,8 @@ hilsaSubchapter.addEventListener('click', function()
   sedimentSubchapter.style.textDecoration = "none";
   airSmallTabHeading.style.textDecoration = "none";
   potsSmallTabHeading.style.textDecoration = 'none';
+
+  $('#backgroundVideo').fadeOut(2000);
 
   $('.hilsaContainer').fadeIn(3000);
   $('.saltContainer').fadeOut(2000);
@@ -400,6 +410,8 @@ snakesSubchapter.addEventListener('click', function()
   sedimentSubchapter.style.textDecoration = "none";
   potsSmallTabHeading.style.textDecoration = 'none';
 
+  $('#backgroundVideo').fadeOut(2000);
+
   $('.hilsaContainer').fadeOut(2000);
   $('.snakesContainer').fadeIn(3000);
   $('.saltContainer').fadeOut(2000);
@@ -440,6 +452,8 @@ saltSubchapter.addEventListener('click', function()
   timeSmallTabHeading.style.textDecoration = "none";
   potsSmallTabHeading.style.textDecoration = 'none';
   sedimentSubchapter.style.textDecoration = "none";
+
+  $('#backgroundVideo').fadeOut(2000);
 
   $('.hilsaContainer').fadeOut(2000);
   $('.snakesContainer').fadeOut(2000);
@@ -483,6 +497,8 @@ dhakaSubchapter.addEventListener('click', function()
   potsSmallTabHeading.style.textDecoration = 'none';
   sedimentSmallTabHeading.style.textDecoration = "none";
 
+  $('#backgroundVideo').fadeOut(2000);
+
   $('.hilsaContainer').fadeOut(2000);
   $('.snakesContainer').fadeOut(2000);
   $('.saltContainer').fadeOut(2000);
@@ -524,6 +540,8 @@ khalsSubchapter.addEventListener('click', function()
   potsSmallTabHeading.style.textDecoration = 'none';
   khalsSmallTabHeading.style.textDecoration = "underline";
 
+  $('#backgroundVideo').fadeOut(2000);
+
   $('.hilsaContainer').fadeOut(2000);
   $('.snakesContainer').fadeOut(2000);
   $('.saltContainer').fadeOut(2000);
@@ -564,6 +582,8 @@ timeSubchapter.addEventListener('click', function()
   airSmallTabHeading.style.textDecoration = "none";
   potsSmallTabHeading.style.textDecoration = 'none';
   timeSmallTabHeading.style.textDecoration = "underline";
+
+  $('#backgroundVideo').fadeOut(2000);
 
   $('.hilsaContainer').fadeOut(2000);
   $('.snakesContainer').fadeOut(2000);
@@ -608,6 +628,8 @@ sedimentSubchapter.addEventListener('click', function()
   potsSmallTabHeading.style.textDecoration = 'none';
   sedimentSmallTabHeading.style.textDecoration = "underline";
 
+  $('#backgroundVideo').fadeOut(2000);
+
   $('.hilsaContainer').fadeOut(0);
   $('.snakesContainer').fadeOut(0);
   $('.saltContainer').fadeOut(0);
@@ -651,6 +673,8 @@ airSubchapter.addEventListener('click', function()
   potsSmallTabHeading.style.textDecoration = 'none';
   airSmallTabHeading.style.textDecoration = "underline";
 
+  $('#backgroundVideo').fadeOut(2000);
+
   $('.hilsaContainer').fadeOut(0);
   $('.snakesContainer').fadeOut(0);
   $('.saltContainer').fadeOut(0);
@@ -692,6 +716,8 @@ pipesPotsSubchapter.addEventListener('click', function()
   sedimentSmallTabHeading.style.textDecoration = "none";
   airSmallTabHeading.style.textDecoration = "none";
   potsSmallTabHeading.style.textDecoration = 'underline';
+
+  $('#backgroundVideo').fadeOut(2000);
 
   $('.hilsaContainer').fadeOut(0);
   $('.snakesContainer').fadeOut(0);
