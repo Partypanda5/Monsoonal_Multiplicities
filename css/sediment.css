@@ -244,8 +244,8 @@
 #sedimentGridSeven
 {
     position: absolute;
-    top: 1%;
-    left: 0%;
+    top: 6%;
+    left: 3%;
 }
 
 #sedimentGridNine
@@ -272,7 +272,7 @@
 #sedimentGridTwelve
 {
     position: absolute;
-    top: 195vh;
+    top: 167vh;
     left: 2.5vw;
 }
 
@@ -353,7 +353,7 @@
 {
     position: absolute;
     left: 52.5%;
-    top: 143.5%;
+    top: 111%;
     width: 14vw;
 }
 
