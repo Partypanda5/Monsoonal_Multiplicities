@@ -55,6 +55,7 @@ var airSmallTabHeading = document.querySelector('#Air');
 var potsSmallTabHeading = document.querySelector('#PipesAndPots');
 var weedsSmallTabHeading = document.querySelector('#Weeds');
 var londonSmallTabHeading = document.querySelector('#LondonNav');
+var tanksSmallTabHeading = document.querySelector('#Tanks');
 
 var AccordianOne = document.getElementById('sectionOne');
 var AccordianTwo = document.getElementById('sectionTwo');
@@ -321,12 +322,14 @@ monsoonalMultiplicitiesTitle.addEventListener('click', function()
   $('.londonContainer').fadeOut(2000);
   $('.potsContainer').fadeOut(2000);
   $('.airContainer').fadeOut(2000);
+  $('.tanksContainer').fadeOut(2000);
 
   $('.MMContainer').fadeIn(2000);
   hilsaSmallTabHeading.style.textDecoration = "none";
   snakesSmallTabHeading.style.textDecoration = "none";
   khalsSmallTabHeading.style.textDecoration = "none";
   saltSmallTabHeading.style.textDecoration = "none";
+  tankSubchapter.style.textDecoration = 'none';
   londonSubchapter.style.textDecoration = 'none';
   weedsSubchapter.style.textDecoration = 'none';
   dhakaSmallTabHeading.style.textDecoration = "none";
@@ -339,6 +342,7 @@ monsoonalMultiplicitiesTitle.addEventListener('click', function()
   weedsSmallTabHeading.style.textDecoration = 'none';
   snakesSubchapter.style.textDecoration = "none";
   saltSubchapter.style.textDecoration = "none";
+  tanksSmallTabHeading.style.textDecoration = 'none';
   dhakaSubchapter.style.textDecoration = "none";
   khalsSubchapter.style.textDecoration = "none";
   timeSmallTabHeading.style.textDecoration = "none";
@@ -360,6 +364,7 @@ hilsaSubchapter.addEventListener('click', function()
   londonSubchapter.style.textDecoration = 'none';
   dhakaSubchapter.style.textDecoration = "none";
   khalsSubchapter.style.textDecoration = "none";
+  tankSubchapter.style.textDecoration = 'none';
   timeSubchapter.style.textDecoration = "none";
   sedimentSmallTabHeading.style.textDecoration = "none";
   pipesPotsSubchapter.style.textDecoration = 'none';
@@ -376,12 +381,14 @@ hilsaSubchapter.addEventListener('click', function()
   sedimentSubchapter.style.textDecoration = "none";
   londonSmallTabHeading.style.textDecoration = 'none';
   airSmallTabHeading.style.textDecoration = "none";
+  tanksSmallTabHeading.style.textDecoration = 'none';
   weedsSmallTabHeading.style.textDecoration = 'none';
   potsSmallTabHeading.style.textDecoration = 'none';
 
   $('#backgroundVideo').fadeOut(2000);
 
   $('.hilsaContainer').fadeIn(3000);
+  $('.tanksContainer').fadeOut(2000);
   $('.saltContainer').fadeOut(2000);
   $('.khalsContainer').fadeOut(2000);
   $('.snakesContainer').fadeOut(2000);
@@ -406,6 +413,7 @@ snakesSubchapter.addEventListener('click', function()
   saltSubchapter.style.textDecoration = "none";
   airSubchapter.style.textDecoration = "none";
   weedsSubchapter.style.textDecoration = 'none';
+  tankSubchapter.style.textDecoration = 'none';
   londonSubchapter.style.textDecoration = 'none';
   dhakaSubchapter.style.textDecoration = "none";
   khalsSubchapter.style.textDecoration = "none";
@@ -424,6 +432,7 @@ snakesSubchapter.addEventListener('click', function()
   londonSmallTabHeading.style.textDecoration = 'none';
   airSmallTabHeading.style.textDecoration = "none";
   timeSmallTabHeading.style.textDecoration = "none";
+  tanksSmallTabHeading.style.textDecoration = 'none';
   sedimentSubchapter.style.textDecoration = "none";
   weedsSmallTabHeading.style.textDecoration = 'none';
   potsSmallTabHeading.style.textDecoration = 'none';
@@ -431,6 +440,7 @@ snakesSubchapter.addEventListener('click', function()
   $('#backgroundVideo').fadeOut(2000);
 
   $('.hilsaContainer').fadeOut(2000);
+  $('.tanksContainer').fadeOut(2000);
   $('.snakesContainer').fadeIn(3000);
   $('.saltContainer').fadeOut(2000);
   $('.khalsContainer').fadeOut(2000);
@@ -454,6 +464,7 @@ saltSubchapter.addEventListener('click', function()
   snakesSubchapter.style.textDecoration = "none";
   saltSubchapter.style.textDecoration = "underline";
   dhakaSubchapter.style.textDecoration = "none";
+  tankSubchapter.style.textDecoration = 'none';
   londonSubchapter.style.textDecoration = 'none';
   khalsSubchapter.style.textDecoration = "none";
   airSubchapter.style.textDecoration = "none";
@@ -473,6 +484,7 @@ saltSubchapter.addEventListener('click', function()
   dhakaSmallTabHeading.style.textDecoration = "none";
   airSmallTabHeading.style.textDecoration = "none";
   weedsSmallTabHeading.style.textDecoration = 'none';
+  tanksSmallTabHeading.style.textDecoration = 'none';
   timeSmallTabHeading.style.textDecoration = "none";
   potsSmallTabHeading.style.textDecoration = 'none';
   sedimentSubchapter.style.textDecoration = "none";
@@ -487,6 +499,7 @@ saltSubchapter.addEventListener('click', function()
   $('.sedimentContainer').fadeOut(2000);
   $('.airContainer').fadeOut(2000);
   $('.londonContainer').fadeOut(2000);
+  $('.tanksContainer').fadeOut(2000);
   $('.potsContainer').fadeOut(2000);
   $('.timeContainer').fadeOut(2000);
   $('.weedsContainer').fadeOut(2000);
@@ -509,6 +522,7 @@ dhakaSubchapter.addEventListener('click', function()
   weedsSubchapter.style.textDecoration = 'none';
   timeSubchapter.style.textDecoration = "none";
   sedimentSubchapter.style.textDecoration = "none";
+  tankSubchapter.style.textDecoration = 'none';
   pipesPotsSubchapter.style.textDecoration = 'none';
   
 
@@ -525,6 +539,7 @@ dhakaSubchapter.addEventListener('click', function()
   weedsSmallTabHeading.style.textDecoration = 'none';
   airSmallTabHeading.style.textDecoration = "none";
   potsSmallTabHeading.style.textDecoration = 'none';
+  tanksSmallTabHeading.style.textDecoration = 'none';
   sedimentSmallTabHeading.style.textDecoration = "none";
 
   $('#backgroundVideo').fadeOut(2000);
@@ -538,6 +553,7 @@ dhakaSubchapter.addEventListener('click', function()
   $('.khalsContainer').fadeOut(2000);
   $('.londonContainer').fadeOut(2000);
   $('.potsContainer').fadeOut(2000);
+  $('.tanksContainer').fadeOut(2000);
   $('.airContainer').fadeOut(2000);
   $('.weedsContainer').fadeOut(2000);
 
@@ -560,6 +576,7 @@ khalsSubchapter.addEventListener('click', function()
   sedimentSubchapter.style.textDecoration = "none";
   weedsSubchapter.style.textDecoration = 'none';
   pipesPotsSubchapter.style.textDecoration = 'none';
+  tankSubchapter.style.textDecoration = 'none';
 
   imageInCorner.style.display = "none";
   imageInCorner.src = '';
@@ -574,6 +591,7 @@ khalsSubchapter.addEventListener('click', function()
   weedsSmallTabHeading.style.textDecoration = 'none';
   potsSmallTabHeading.style.textDecoration = 'none';
   londonSmallTabHeading.style.textDecoration = 'none';
+  tanksSmallTabHeading.style.textDecoration = 'none';
   khalsSmallTabHeading.style.textDecoration = "underline";
 
   $('#backgroundVideo').fadeOut(2000);
@@ -584,6 +602,7 @@ khalsSubchapter.addEventListener('click', function()
   $('.dhakaContainer').fadeOut(2000);
   $('.timeContainer').fadeOut(2000);
   $('.sedimentContainer').fadeOut(2000);
+  $('.tanksContainer').fadeOut(2000);
   $('.airContainer').fadeOut(2000);
   $('.potsContainer').fadeOut(2000);
   $('.weedsContainer').fadeOut(2000);
@@ -609,6 +628,7 @@ timeSubchapter.addEventListener('click', function()
   londonSubchapter.style.textDecoration = 'none';
   timeSubchapter.style.textDecoration = "underline";
   pipesPotsSubchapter.style.textDecoration = 'none';
+  tankSubchapter.style.textDecoration = 'none';
 
   imageInCorner.style.display = "none";
   imageInCorner.src = '';
@@ -623,6 +643,7 @@ timeSubchapter.addEventListener('click', function()
   londonSmallTabHeading.style.textDecoration = 'none';
   weedsSmallTabHeading.style.textDecoration = 'none';
   potsSmallTabHeading.style.textDecoration = 'none';
+  tanksSmallTabHeading.style.textDecoration = 'none';
   timeSmallTabHeading.style.textDecoration = "underline";
 
   $('#backgroundVideo').fadeOut(2000);
@@ -637,6 +658,7 @@ timeSubchapter.addEventListener('click', function()
   $('.weedsContainer').fadeOut(2000);
   $('.potsContainer').fadeOut(2000);
   $('.londonContainer').fadeOut(2000);
+  $('.tanksContainer').fadeOut(2000);
   $('.timeContainer').fadeIn(3000);
   
 
@@ -655,6 +677,7 @@ sedimentSubchapter.addEventListener('click', function()
   saltSubchapter.style.textDecoration = "none";
   dhakaSubchapter.style.textDecoration = "none";
   khalsSubchapter.style.textDecoration = "none";
+  tankSubchapter.style.textDecoration = 'none';
   timeSubchapter.style.textDecoration = "none";
   sedimentSubchapter.style.textDecoration = "underline";
   airSubchapter.style.textDecoration = "none";
@@ -674,6 +697,7 @@ sedimentSubchapter.addEventListener('click', function()
   londonSmallTabHeading.style.textDecoration = 'none';
   weedsSmallTabHeading.style.textDecoration = 'none';
   potsSmallTabHeading.style.textDecoration = 'none';
+  tanksSmallTabHeading.style.textDecoration = 'none';
   sedimentSmallTabHeading.style.textDecoration = "underline";
 
   $('#backgroundVideo').fadeOut(2000);
@@ -688,6 +712,7 @@ sedimentSubchapter.addEventListener('click', function()
   $('.weedsContainer').fadeOut(0);
   $('.potsContainer').fadeOut(0);
   $('.londonContainer').fadeOut(0);
+  $('.tanksContainer').fadeOut(0);
   $('.sedimentContainer').fadeIn(0);
 
   setTimeout(function()
@@ -706,6 +731,7 @@ airSubchapter.addEventListener('click', function()
   khalsSubchapter.style.textDecoration = "none";
   londonSubchapter.style.textDecoration = 'none';
   timeSubchapter.style.textDecoration = "none";
+  tankSubchapter.style.textDecoration = 'none';
   sedimentSubchapter.style.textDecoration = "none";
   pipesPotsSubchapter.style.textDecoration = 'none';
   weedsSubchapter.style.textDecoration = 'none';
@@ -725,6 +751,7 @@ airSubchapter.addEventListener('click', function()
   weedsSmallTabHeading.style.textDecoration = 'none';
   potsSmallTabHeading.style.textDecoration = 'none';
   londonSmallTabHeading.style.textDecoration = 'none';
+  tanksSmallTabHeading.style.textDecoration = 'none';
   airSmallTabHeading.style.textDecoration = "underline";
 
   $('#backgroundVideo').fadeOut(2000);
@@ -737,6 +764,7 @@ airSubchapter.addEventListener('click', function()
   $('.timeContainer').fadeOut(0);
   $('.sedimentContainer').fadeOut(0);
   $('.potsContainer').fadeOut(0);
+  $('.tanksContainer').fadeOut(0);
   $('.weedsContainer').fadeOut(0);
   $('.airContainer').fadeIn(0);
   $('.londonContainer').fadeOut(0);
@@ -756,6 +784,7 @@ pipesPotsSubchapter.addEventListener('click', function()
   khalsSubchapter.style.textDecoration = "none";
   timeSubchapter.style.textDecoration = "none";
   londonSubchapter.style.textDecoration = 'none';
+  tankSubchapter.style.textDecoration = 'none';
   sedimentSubchapter.style.textDecoration = "none";
   airSubchapter.style.textDecoration = "none";
   weedsSubchapter.style.textDecoration = 'none';
@@ -774,6 +803,7 @@ pipesPotsSubchapter.addEventListener('click', function()
   sedimentSmallTabHeading.style.textDecoration = "none";
   airSmallTabHeading.style.textDecoration = "none";
   weedsSmallTabHeading.style.textDecoration = 'none';
+  tanksSmallTabHeading.style.textDecoration = 'none';
   potsSmallTabHeading.style.textDecoration = 'underline';
   londonSmallTabHeading.style.textDecoration = 'none';
 
@@ -784,6 +814,7 @@ pipesPotsSubchapter.addEventListener('click', function()
   $('.saltContainer').fadeOut(0);
   $('.dhakaContainer').fadeOut(0);
   $('.khalsContainer').fadeOut(0);
+  $('.tanksContainer').fadeOut(0);
   $('.timeContainer').fadeOut(0);
   $('.sedimentContainer').fadeOut(0);
   $('.airContainer').fadeOut(0);
@@ -811,6 +842,7 @@ weedsSubchapter.addEventListener('click', function()
   airSubchapter.style.textDecoration = "none";
   pipesPotsSubchapter.style.textDecoration = 'none';
   londonSubchapter.style.textDecoration = 'none';
+  tankSubchapter.style.textDecoration = 'none';
   weedsSubchapter.style.textDecoration = 'underline';
   
 
@@ -826,6 +858,7 @@ weedsSubchapter.addEventListener('click', function()
   sedimentSmallTabHeading.style.textDecoration = "none";
   airSmallTabHeading.style.textDecoration = "none";
   potsSmallTabHeading.style.textDecoration = 'none';
+  tanksSmallTabHeading.style.textDecoration = 'none';
   weedsSmallTabHeading.style.textDecoration = 'underline';
   londonSmallTabHeading.style.textDecoration = 'none';
 
@@ -841,6 +874,7 @@ weedsSubchapter.addEventListener('click', function()
   $('.airContainer').fadeOut(0);
   $('.potsContainer').fadeOut(0);
   $('.weedsContainer').fadeIn(0);
+  $('.tanksContainer').fadeOut(0);
   $('.londonContainer').fadeOut(0);
 
   setTimeout(function()
@@ -861,6 +895,7 @@ londonSubchapter.addEventListener('click', function()
   airSubchapter.style.textDecoration = "none";
   pipesPotsSubchapter.style.textDecoration = 'none';
   weedsSubchapter.style.textDecoration = 'none';
+  tankSubchapter.style.textDecoration = 'none';
   londonSubchapter.style.textDecoration = 'underline';
   
 
@@ -877,6 +912,7 @@ londonSubchapter.addEventListener('click', function()
   airSmallTabHeading.style.textDecoration = "none";
   potsSmallTabHeading.style.textDecoration = 'none';
   weedsSmallTabHeading.style.textDecoration = 'none';
+  tanksSmallTabHeading.style.textDecoration = 'none';
   londonSmallTabHeading.style.textDecoration = 'underline';
 
   $('#backgroundVideo').fadeOut(2000);
@@ -891,6 +927,7 @@ londonSubchapter.addEventListener('click', function()
   $('.airContainer').fadeOut(0);
   $('.potsContainer').fadeOut(0);
   $('.weedsContainer').fadeOut(0);
+  $('.tanksContainer').fadeOut(0);
   $('.londonContainer').fadeIn(0);
 
   setTimeout(function()
@@ -899,6 +936,60 @@ londonSubchapter.addEventListener('click', function()
   }, 5000);
 });
 
+
+tankSubchapter.addEventListener('click', function() 
+{
+  hilsaSubchapter.style.textDecoration = "none";
+  snakesSubchapter.style.textDecoration = "none";
+  saltSubchapter.style.textDecoration = "none";
+  dhakaSubchapter.style.textDecoration = "none";
+  khalsSubchapter.style.textDecoration = "none";
+  timeSubchapter.style.textDecoration = "none";
+  sedimentSubchapter.style.textDecoration = "none";
+  airSubchapter.style.textDecoration = "none";
+  pipesPotsSubchapter.style.textDecoration = 'none';
+  weedsSubchapter.style.textDecoration = 'none';
+  londonSubchapter.style.textDecoration = 'none';
+  tankSubchapter.style.textDecoration = 'underline';
+  
+
+  imageInCorner.style.display = "none";
+  imageInCorner.src = '';
+
+  hilsaSmallTabHeading.style.textDecoration = "none";
+  snakesSmallTabHeading.style.textDecoration = "none";
+  saltSmallTabHeading.style.textDecoration = "none";
+  dhakaSmallTabHeading.style.textDecoration = "none";
+  khalsSmallTabHeading.style.textDecoration = "none";
+  timeSmallTabHeading.style.textDecoration = "none";
+  sedimentSmallTabHeading.style.textDecoration = "none";
+  airSmallTabHeading.style.textDecoration = "none";
+  potsSmallTabHeading.style.textDecoration = 'none';
+  weedsSmallTabHeading.style.textDecoration = 'none';
+  londonSmallTabHeading.style.textDecoration = 'none';
+  tanksSmallTabHeading.style.textDecoration = 'underline';
+
+  $('#backgroundVideo').fadeOut(2000);
+
+  $('.hilsaContainer').fadeOut(0);
+  $('.snakesContainer').fadeOut(0);
+  $('.saltContainer').fadeOut(0);
+  $('.dhakaContainer').fadeOut(0);
+  $('.khalsContainer').fadeOut(0);
+  $('.timeContainer').fadeOut(0);
+  $('.sedimentContainer').fadeOut(0);
+  $('.airContainer').fadeOut(0);
+  $('.potsContainer').fadeOut(0);
+  $('.weedsContainer').fadeOut(0);
+  $('.londonContainer').fadeOut(0);
+  $('.tanksContainer').fadeIn(0);
+
+
+  setTimeout(function()
+  { 
+    imageInCorner.style.display = "block";
+  }, 5000);
+});
 
 
  function checkActiveAccordian()
