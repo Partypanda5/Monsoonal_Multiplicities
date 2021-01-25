@@ -13,10 +13,11 @@ html
     position: absolute;
     z-index: -10;
     width: 100%;
-    height: auto;
-    bottom: 0;
+    height: 1080px;
+    top: 0vh;
     left: 0vw;
 }
+
 body 
 {
     font-family: 'Lato';
@@ -525,7 +526,7 @@ a
 .Layout__wrapper-container 
 {
     position: absolute;
-    width: 100%;
+    width: 101%; /* might fuck shit up */
     height: 100%;
 }
 
