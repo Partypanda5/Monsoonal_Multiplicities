@@ -625,14 +625,14 @@ video:focus { outline:none; }
 
 #events
 {
-    height: 50%;
+    height: 60%;
     width: auto;
 }
 
 #residency
 {
     margin-top: 10vh;
-    height: 50%;
+    height: 60%;
     width: auto;
 }
 
@@ -725,14 +725,14 @@ video:focus { outline:none; }
     width: 64.5vw;
     height: 1vh;
     position: absolute;
-    top: 2450vh;
+    top: 2565vh;
     left: -33vw;
     border-bottom: 1px solid black;
 }
 
 #oneRefLanding
 {
-    top: 2455vh;
+    top: 2575vh;
     left: 0vw;
     width: 40%;
 }
@@ -995,4 +995,30 @@ video:focus { outline:none; }
     font-weight: 400;
     line-height: 37px;
     text-align: left;
+}
+
+#RightTextContainerMM
+{
+    width: 30.5%;
+    height: 5500px;
+    position: absolute;
+    top: 23.9%;
+    left: 35%;
+    z-index: -3;
+}
+
+.rightSideTextMM
+{
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 37px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.rightSideText
+{
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 37px;
+    font-family: 'Roboto', sans-serif;
 }
