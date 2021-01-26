@@ -221,3 +221,36 @@
     left: 0vw;
     border-bottom: 1px solid black;
 }
+
+.endlinePotsTwo
+{
+    width: 64.5vw;
+    height: 1vh;
+    position: relative;
+    top: 90vh;
+    left: 0vw;
+    border-bottom: 2px solid black;
+}
+
+.referenceBlockPots
+{
+    position: relative;
+    width: 30%;
+    height: 12%;
+    left: 35.3%;
+    top: 30%;
+}
+
+.referencesPots
+{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    width: 55%;
+    height: 50%;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
