@@ -860,6 +860,12 @@ video:focus { outline:none; }
     pointer-events: none;
 }
 
+#gridImageSmallerLarger
+{
+    width: 30vw;
+    margin-left: 25px;
+} 
+
 #gridImageLarger
 {
     width: 31vw;
