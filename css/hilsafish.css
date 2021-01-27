@@ -608,3 +608,13 @@
     top: -163vh;
     left: -8vw;
 }
+
+#RightTextContainer
+{
+    width: 30.5%;
+    height: 5500px;
+    position: absolute;
+    top: 23.9%;
+    left: 35%;
+    z-index: -3;
+}
